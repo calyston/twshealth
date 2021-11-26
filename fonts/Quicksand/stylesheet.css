@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Quicksand Light Oblique';
+    src: url('QuicksandLightOblique-Regular.eot');
+    src: url('QuicksandLightOblique-Regular.eot?#iefix') format('embedded-opentype'),
+        url('QuicksandLightOblique-Regular.woff2') format('woff2'),
+        url('QuicksandLightOblique-Regular.woff') format('woff'),
+        url('QuicksandLightOblique-Regular.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quicksand Bold Oblique';
+    src: url('QuicksandBoldOblique-Regular.eot');
+    src: url('QuicksandBoldOblique-Regular.eot?#iefix') format('embedded-opentype'),
+        url('QuicksandBoldOblique-Regular.woff2') format('woff2'),
+        url('QuicksandBoldOblique-Regular.woff') format('woff'),
+        url('QuicksandBoldOblique-Regular.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quicksand Book Oblique';
+    src: url('QuicksandBookOblique-Regular.eot');
+    src: url('QuicksandBookOblique-Regular.eot?#iefix') format('embedded-opentype'),
+        url('QuicksandBookOblique-Regular.woff2') format('woff2'),
+        url('QuicksandBookOblique-Regular.woff') format('woff'),
+        url('QuicksandBookOblique-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quicksand Book';
+    src: url('QuicksandBook-Regular.eot');
+    src: url('QuicksandBook-Regular.eot?#iefix') format('embedded-opentype'),
+        url('QuicksandBook-Regular.woff2') format('woff2'),
+        url('QuicksandBook-Regular.woff') format('woff'),
+        url('QuicksandBook-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('QuicksandLight-Regular.eot');
+    src: url('QuicksandLight-Regular.eot?#iefix') format('embedded-opentype'),
+        url('QuicksandLight-Regular.woff2') format('woff2'),
+        url('QuicksandLight-Regular.woff') format('woff'),
+        url('QuicksandLight-Regular.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quicksand Dash';
+    src: url('QuicksandDash-Regular.eot');
+    src: url('QuicksandDash-Regular.eot?#iefix') format('embedded-opentype'),
+        url('QuicksandDash-Regular.woff2') format('woff2'),
+        url('QuicksandDash-Regular.woff') format('woff'),
+        url('QuicksandDash-Regular.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('QuicksandBold-Regular.eot');
+    src: url('QuicksandBold-Regular.eot?#iefix') format('embedded-opentype'),
+        url('QuicksandBold-Regular.woff2') format('woff2'),
+        url('QuicksandBold-Regular.woff') format('woff'),
+        url('QuicksandBold-Regular.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

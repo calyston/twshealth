@@ -1,0 +1,29 @@
+//Footer
+
+footer {
+  text-align: center;
+  background-color: $dark-grey;
+  padding: 3rem;
+
+  p {
+    color: white;
+  }
+
+  a {
+    color: white;
+    transition: $main-transition;
+    cursor: pointer;
+  }
+
+  a:hover {
+    color: $red;
+  }
+}
+
+.sns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 3rem;
+}

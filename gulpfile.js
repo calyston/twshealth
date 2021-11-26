@@ -1,0 +1,84 @@
+const autoprefixer = require('gulp-autoprefixer');
+const browserSync = require('browser-sync');
+const cssnano = require('gulp-cssnano');
+const eslint = require('gulp-eslint');
+const gulp = require('gulp');
+const rename = require('gulp-rename');
+const sass = require('gulp-sass', 'sass');
+const sourcemaps = require('gulp-sourcemaps');
+const terser = require('gulp-terser');
+
+// // Create basic Gulp tasks
+
+gulp.task('sass', function () {
+  return gulp
+    .src('./sass/main.scss', { sourcemaps: true })
+    .pipe(sourcemaps.init())
+    .pipe(sass())
+    .pipe(
+      autoprefixer({
+        browsers: ['last 2 versions']
+      })
+    )
+    .pipe(gulp.dest('./'))
+    .pipe(cssnano())
+    .pipe(rename('style.min.css'))
+    .pipe(sourcemaps.write('../maps'))
+    .pipe(gulp.dest('./build/css'));
+});
+
+gulp.task('lint', function () {
+  return gulp
+    .src(['./js/*.js'])
+    .pipe(prettyError())
+    .pipe(eslint())
+    .pipe(eslint.format())
+    .pipe(eslint.failAfterError());
+});
+
+gulp.task(
+  'scripts',
+  gulp.series('lint', function () {
+    return gulp
+      .src('./js/*.js')
+      .pipe(terser())
+      .pipe(
+        rename({
+          extname: '.min.js'
+        })
+      )
+      .pipe(gulp.dest('./build/js'));
+  })
+);
+
+// Set-up BrowserSync and watch
+
+gulp.task('browser-sync', function () {
+  const files = [
+    './build/css/*.css',
+    './build/js/*.js',
+    './sass/**/*.scss',
+    './*php',
+    './*.html',
+    './**/*.html'
+  ];
+
+  browserSync.init({
+    server: {
+      baseDir: './'
+    }
+  })
+
+  gulp.watch(files).on('change', browserSync.stream);
+
+});
+
+gulp.task('watch', function (done) {
+  gulp.watch('js/*.js', gulp.series('scripts'));
+  gulp.watch('sass/**/*.scss', gulp.series('sass'));
+  gulp.watch('./*.php').on('change', browserSync.reload);
+  gulp.watch('./*.html').on('change', browserSync.reload);
+  done()
+});
+
+gulp.task('default', gulp.parallel('browser-sync', 'watch'));

@@ -1,0 +1,18 @@
+//Buttons
+
+.main-button {
+  color: black;
+  background-color: $orange;
+  text-transform: uppercase;
+  padding: 1.6rem;
+  border: none;
+  border-radius: 5rem;
+  box-shadow: $main-shadow;
+  transition: $main-transition;
+  cursor: pointer;
+}
+
+.main-button:hover {
+  color: white;
+  background-color: $red;
+}

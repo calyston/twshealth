@@ -1,0 +1,101 @@
+//Free Workout Plan
+
+.fwp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0 3rem;
+
+  img {
+    width: 100vw;
+    height: auto;
+    box-shadow: $main-shadow;
+  }
+
+  h1, h2, p, img, li {
+    margin-bottom: 1.6rem;
+  }
+
+  button {
+    margin-bottom: 3rem;
+  }
+}
+
+.learn {
+  background-color: $light-grey;
+
+  ul {
+    text-align: justify;
+  }
+
+  svg {
+    fill: $red;
+    height: 1.6rem;
+    padding-right: 1rem;
+  }
+}
+
+.tim {
+  p {
+    text-align: justify;
+  }
+}
+
+//Tablet & Desktop View
+
+@media screen and (min-width: 900px) {
+  .fwp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+      width: 50vw;
+      height: auto;
+      box-shadow: $main-shadow;
+    }
+
+    div {
+      width: 40vw;
+      padding: 1.6rem 3rem;
+    }
+  }
+
+  .learn {
+    flex-direction: row-reverse;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .fwp {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+
+    img {
+      width: 100%;
+      height: auto;
+      box-shadow: $main-shadow;
+      align-self: stretch;
+      margin-bottom: 0;
+    }
+
+    div {
+      padding: 3rem;
+    }
+  }
+
+  .learn {
+    div {
+      grid-column: 1;
+    }
+
+    img {
+      grid-column: 2;
+      grid-row: 1;
+      justify-self: end;
+    }
+  }
+}

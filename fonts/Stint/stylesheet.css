@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Stint Ultra Expanded';
+    src: url('StintUltraExpanded-Regular.eot');
+    src: url('StintUltraExpanded-Regular.eot?#iefix') format('embedded-opentype'),
+        url('StintUltraExpanded-Regular.woff2') format('woff2'),
+        url('StintUltraExpanded-Regular.woff') format('woff'),
+        url('StintUltraExpanded-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
