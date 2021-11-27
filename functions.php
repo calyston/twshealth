@@ -62,8 +62,8 @@ function twshealth_scripts()  {
 	// get the theme directory style.css and link to it in the header
 	wp_enqueue_style('style.css', get_stylesheet_directory_uri() . '/css/style.css');
 	
-	// add fitvid
-	wp_enqueue_script( 'twshealth-fitvid', get_template_directory_uri() . '/js/jquery.fitvids.js', array( 'jquery' ), TWSHEALTH, true );
+	// add javascript
+	wp_enqueue_script( 'twshealth-js', get_template_directory_uri() . '/js/main.js', array(), TWSHEALTH, true );
 	
 	// add theme scripts
 	wp_enqueue_script( 'twshealth', get_template_directory_uri() . '/js/theme.min.js', array(), TWSHEALTH, true );

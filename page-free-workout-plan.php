@@ -13,7 +13,7 @@ get_header();?>
 				<h2>Discover The Fast & Effective Way To Enjoy More Strength, Energy And
 					Vitality In Your Life... Starting Today!</h2>
 				<p>(Even if you’re stretched for time or don't know where to begin)</p>
-				<button class="main-button">Get Free Workout Plan</button>
+				<button class="main-button" onClick='getPlan()'>Get Free Workout Plan</button>
 			</div>
     </section>
     <section class="fwp learn">
@@ -52,7 +52,7 @@ get_header();?>
 			</div>
 
     </section>
-    <section class="fwp-contact-form">
+    <section id="getPlan" class="fwp-contact-form">
 			<?php the_content(); ?>
 		</section>
 	</section>
