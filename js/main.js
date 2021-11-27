@@ -15,6 +15,9 @@ function getPlan() {
 
 //Coming Soon Overlay
 
-function comingSoonOverlay() {
-  document.getElementsByClassName("post").style.width = "100%";
-}
+// const body = document.body;
+// body.onload = myFunction;
+
+// function myFunction() {
+//   window.location.replace("http://tws.health/coming-soon");
+// }

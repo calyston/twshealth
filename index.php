@@ -9,6 +9,9 @@ get_header(); ?>
 
 	<?php if ( have_posts() ) : ?>
 	<?php while ( have_posts() ) : the_post(); ?>
+	<script type="text/javascript">
+    window.location = "http://localhost:81/twshealth/coming-soon";
+</script>
 
 	<?php endwhile;  ?>
 
