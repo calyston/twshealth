@@ -28,7 +28,7 @@
 <body 
 	<?php body_class(); ?>>
 	<header>
-		<?php if (is_page('free-workout-plan')) { ?>
+		<?php if (is_page(array('free-workout-plan', 'coming-soon'))) { ?>
 			<nav>
 				<img id="logo" src="https://tws.health/wp-content/uploads/2021/11/logo.png" alt="logo">
 			</nav>

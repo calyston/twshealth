@@ -134,44 +134,6 @@ footer a:hover {
   padding-bottom: 3rem;
 }
 
-.wpcf7 {
-  width: 100%;
-  text-align: center;
-}
-.wpcf7 p {
-  margin-bottom: 0;
-}
-.wpcf7 input {
-  padding: 1.6rem;
-  border: 0.1rem solid #4D4D4D;
-  border-radius: 5rem;
-  box-shadow: #4D4D4D 3px 3px 6px;
-  margin: 1.6rem 0;
-}
-
-.wpcf7-not-valid-tip {
-  font-size: 1.6rem;
-  padding: 1.6rem;
-  color: #BB2929;
-}
-
-.wpcf7-submit {
-  color: black;
-  background-color: #F7931E;
-  text-transform: uppercase;
-  padding: 1.6rem;
-  border: none !important;
-  border-radius: 5rem;
-  box-shadow: #4D4D4D 3px 3px 6px;
-  transition: 0.3s ease-in-out;
-  cursor: pointer;
-}
-
-.wpcf7-submit:hover {
-  color: white;
-  background-color: #BB2929;
-}
-
 .fwp-contact-form {
   display: flex;
   flex-direction: column;
@@ -179,9 +141,6 @@ footer a:hover {
   justify-content: center;
   text-align: left;
   padding: 3rem;
-}
-.fwp-contact-form input {
-  width: 75vw;
 }
 
 .main-button {

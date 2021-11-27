@@ -7,34 +7,21 @@
  *
 */
 get_header(); // This fxn gets the header.php file and renders it ?>
-	<div id="primary" class="row-fluid">
-		<div id="content" role="main" class="span8">
 			<?php if ( have_posts() ) : 
-			// Do we have any posts/pages in the databse that match our query?
 			?>
 
 				<?php while ( have_posts() ) : the_post(); 
-				// If we have a page to show, start a loop that will display it
 				?>
 
 					<article class="post">
 
-						<?php if (!is_front_page()) : // Only if this page is NOT being used as a home page, display the title ?>
+						<?php if (!is_front_page()) : ?>
 							<h1 class='title'>
-								<?php the_title(); // Display the page title ?>
+								<?php the_title();  ?>
 							</h1>
 						<?php endif; ?>
-
-						
-										
-						<div class="the-content">
 							<?php the_content(); 
-							// This call the main content of the page, the stuff in the main text box while composing.
-							// This will wrap everything in paragraph tags
 							?>
-							
-							<?php wp_link_pages(); // This will display pagination links, if applicable to the page ?>
-						</div><!-- the-content -->
 						
 					</article>
 

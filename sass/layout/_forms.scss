@@ -1,45 +1,5 @@
 //Forms
 
-.wpcf7 {
-  width: 100%;
-  text-align: center;
-
-  p {
-    margin-bottom: 0;
-  }
-
-  input {
-    padding: 1.6rem;
-    border: 0.1rem solid $dark-grey;
-    border-radius: 5rem;
-    box-shadow: $main-shadow;
-    margin: 1.6rem 0;
-  }
-}
-
-.wpcf7-not-valid-tip {
-  font-size: 1.6rem;
-  padding: 1.6rem;
-  color: $red;
-}
-
-.wpcf7-submit {
-  color: black;
-  background-color: $orange;
-  text-transform: uppercase;
-  padding: 1.6rem;
-  border: none!important;
-  border-radius: 5rem;
-  box-shadow: $main-shadow;
-  transition: $main-transition;
-  cursor: pointer;
-}
-
-.wpcf7-submit:hover {
-  color: white;
-  background-color: $red;
-}
-
 //Free Workout Plan
 
 .fwp-contact-form {
@@ -50,7 +10,21 @@
   text-align: left;
   padding: 3rem;
 
-  input {
-    width: 75vw;
+  label, input {
+    margin-bottom: 1.6rem;
   }
+}
+
+.fwp-input {
+  width: 40rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 5rem;
+  box-shadow: $main-shadow;
+  transition: $main-transition;
+  cursor: pointer;
+}
+
+.fwp-submit {
+  margin-top: 1.6rem;
 }

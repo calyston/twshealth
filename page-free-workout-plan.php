@@ -53,7 +53,12 @@ get_header();?>
 
     </section>
     <section id="getPlan" class="fwp-contact-form">
-			<?php the_content(); ?>
+			<form action=""></form>
+			<label for="name">Full Name:</label>
+			<input class="fwp-input" type="text" name="name" placeholder="Full Name">
+			<label for="email">Email:</label>
+			<input class="fwp-input" type="email" name="email" placeholder="Email">
+			<input type="submit" class="main-button fwp-submit" name="get-free-workout-plan" value="Get Free Workout Plan">
 		</section>
 	</section>
 	<?php endwhile; ?>

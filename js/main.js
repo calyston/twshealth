@@ -10,3 +10,11 @@ function getPlan() {
     block: "start",
   });
 }
+
+//Homepage
+
+//Coming Soon Overlay
+
+function comingSoonOverlay() {
+  document.getElementsByClassName("post").style.width = "100%";
+}
