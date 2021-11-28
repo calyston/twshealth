@@ -6,7 +6,9 @@ get_header();?>
 
 <?php if ( have_posts() ) : ?>
 	<?php while ( have_posts() ) : the_post(); ?>
-	<section class="fwp-page">
+	<section>
+
+	<!-- Intro -->
 	<section class="fwp intro">
 			<img src="https://tws.health/wp-content/uploads/2021/11/landing-page-1.jpeg" alt="workout-results"/>
 			<div>
@@ -16,6 +18,8 @@ get_header();?>
 				<button class="main-button" onClick='getPlan()'>Get Free Workout Plan</button>
 			</div>
     </section>
+
+		<!-- What You'll Learn -->
     <section class="fwp learn">
 			<img src="https://tws.health/wp-content/uploads/2021/11/landing-page-2-scaled.jpeg" alt="weights">
 			<div>
@@ -34,30 +38,34 @@ get_header();?>
 				</ul>
 			</div>
     </section>
+
+		<!-- Meet Tim -->
     <section class="fwp tim">
 			<img src="https://tws.health/wp-content/uploads/2021/11/landing-page-3-scaled.jpeg" alt="healthy-eating">
 			<div>
 				<h2>Meet Tim...</h2>
 				<p>Timothy Williams-Silvera is a nutrition and weight management specialist and has
-					helped multiple clients reach their their individual weight loss targets and total life
+					helped multiple clients reach their individual weight loss targets and total life
 					transformation.</p>
 				<p>For the past year, Tim has been helping working professionals that were pressed for
 					time and struggling to lose weight unlock the secret to long term results - maintaining
 					a healthy diet and lifestyle, creating a life they’re truly excited about.</p>
-				<p>In this life-changing FREE program, Tim will guide you through the PROVEN method
+				<p>In this life-changing FREE programme, Tim will guide you through the PROVEN method
 					to unlock the body you want... without spending all of your time and money on
 					working out and meal prep.</p>
 				<p>This essential plan has helped many professionals worldwide, and is yours to
 					download free below...</p>
 			</div>
-
     </section>
+
+		<!-- Contact Form -->
     <section id="getPlan" class="fwp-contact-form">
-			<form action=""></form>
-			<label for="name">Full Name:</label>
-			<input class="fwp-input" type="text" name="name" placeholder="Full Name">
-			<label for="email">Email:</label>
-			<input class="fwp-input" type="email" name="email" placeholder="Email">
+			<form action="https://health.us5.list-manage.com/subscribe/post?u=0d9ee34e7472722183c711a2f&amp;id=fc9d9887c4" method="post"></form>
+			<p class="indicates-required"><span class="asterisk">*</span> Indicates Required</p>
+			<label for="name">Full Name<span class="asterisk">*</span> :</label>
+			<input class="fwp-input" type="text" name="name" placeholder="Full Name" required>
+			<label for="email">Email<span class="asterisk">*</span> :</label>
+			<input class="fwp-input" type="email" name="email" placeholder="Email" required>
 			<input type="submit" class="main-button fwp-submit" name="get-free-workout-plan" value="Get Free Workout Plan">
 		</section>
 	</section>

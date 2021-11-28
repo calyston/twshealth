@@ -5,16 +5,13 @@
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <meta name="viewport" content="width=device-width" />
 <title>
-	<?php bloginfo('name'); // show the blog name, from settings ?> | 
-	<?php is_front_page() ? bloginfo('description') : wp_title(''); // if we're on the home page, show the description, from the site's settings - otherwise, show the title of the post or page ?>
+	<?php bloginfo('name'); ?> | 
+	<?php is_front_page() ? bloginfo('description') : wp_title(''); ?>
 </title>
 
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-<?php // We are loading our theme directory style.css by queuing scripts in our functions.php file, 
-	// so if you want to load other stylesheets,
-	// I would load them with an @import call in your style.css
-?>
+<?php ?>
 
 <?php // Loads HTML5 JavaScript file to add support for HTML5 elements in older IE versions. ?>
 <!--[if lt IE 9]>
