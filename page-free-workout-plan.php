@@ -6,7 +6,6 @@ get_header();?>
 
 <?php if ( have_posts() ) : ?>
 	<?php while ( have_posts() ) : the_post(); ?>
-	<section>
 
 	<!-- Intro -->
 	<section class="fwp intro">
@@ -59,16 +58,28 @@ get_header();?>
     </section>
 
 		<!-- Contact Form -->
-    <section id="getPlan" class="fwp-contact-form">
-			<form action="https://health.us5.list-manage.com/subscribe/post?u=0d9ee34e7472722183c711a2f&amp;id=fc9d9887c4" method="post"></form>
-			<p class="indicates-required"><span class="asterisk">*</span> Indicates Required</p>
-			<label for="name">Full Name<span class="asterisk">*</span> :</label>
-			<input class="fwp-input" type="text" name="name" placeholder="Full Name" required>
-			<label for="email">Email<span class="asterisk">*</span> :</label>
-			<input class="fwp-input" type="email" name="email" placeholder="Email" required>
-			<input type="submit" class="main-button fwp-submit" name="get-free-workout-plan" value="Get Free Workout Plan">
+		<section id="getPlan">
+		<form action="https://health.us5.list-manage.com/subscribe/post?u=0d9ee34e7472722183c711a2f&amp;id=fc9d9887c4" name="myForm" method="post" class="fwp-contact-form" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+		<p class="indicates-required"><span class="asterisk">*</span> indicates required</p>
+
+			<label for="mce-FNAME">First Name <span class="asterisk">*</span> :</label>
+			<input type="text" value="" name="FNAME" class="fwp-input" id="mce-FNAME" required>
+
+			<label for="mce-LNAME">Last Name <span class="asterisk">*</span> :</label>
+			<input type="text" value="" name="LNAME" class="fwp-input" id="mce-LNAME" required>
+
+			<label for="mce-EMAIL">Email Address <span class="asterisk">*</span> :</label>
+			<input type="email" value="" name="EMAIL" class="fwp-input required email" id="mce-EMAIL" required>
+
+			<!-- Responses -->
+			<div id="mce-responses" class="clear">
+				<div class="response" id="mce-error-response" style="display:none"></div>
+				<div class="response" id="mce-success-response" style="display:none"></div>
+			</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+				<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_0d9ee34e7472722183c711a2f_fc9d9887c4" tabindex="-1" value=""></div>
+				<input type="submit" value="Get Free Workout Plan" name="subscribe" id="mc-embedded-subscribe" class="main-button fwp-submit">
+			</form>
 		</section>
-	</section>
 	<?php endwhile; ?>
 
 	<?php else : ?>
