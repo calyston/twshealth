@@ -42,6 +42,15 @@
   }
 }
 
+.get-plan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  padding: 3rem;
+}
+
 //Tablet & Desktop View
 
 @media screen and (min-width: 900px) {

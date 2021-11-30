@@ -14,7 +14,7 @@ get_header();?>
 				<h2>Discover The Fast & Effective Way To Enjoy More Strength, Energy And
 					Vitality In Your Life... Starting Today!</h2>
 				<p>(Even if you’re stretched for time or don't know where to begin)</p>
-				<button class="main-button" onClick='getPlan()'>Get Free Workout Plan</button>
+				<a href="https://view.flodesk.com/pages/61a68146aadf79eb40035343"><button class="main-button">Get Free Workout Plan</button></a>
 			</div>
     </section>
 
@@ -57,56 +57,8 @@ get_header();?>
 			</div>
     </section>
 
-		<!-- Contact Form -->
-		<!--
-		<section id="getPlan">
-		<form action="https://health.us5.list-manage.com/subscribe/post?u=0d9ee34e7472722183c711a2f&amp;id=fc9d9887c4" name="myForm" method="post" class="fwp-contact-form" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
-		<p class="indicates-required"><span class="asterisk">*</span> indicates required</p>
-
-			<label for="mce-FNAME">First Name <span class="asterisk">*</span> :</label>
-			<input type="text" value="" name="FNAME" class="fwp-input" id="mce-FNAME" required>
-
-			<label for="mce-LNAME">Last Name <span class="asterisk">*</span> :</label>
-			<input type="text" value="" name="LNAME" class="fwp-input" id="mce-LNAME" required>
-
-			<label for="mce-EMAIL">Email Address <span class="asterisk">*</span> :</label>
-			<input type="email" value="" name="EMAIL" class="fwp-input required email" id="mce-EMAIL" required>
-
-			Responses 
-			<div id="mce-responses" class="clear">
-				<div class="response" id="mce-error-response" style="display:none"></div>
-				<div class="response" id="mce-success-response" style="display:none"></div>
-			</div>    real people should not fill this in and expect good things - do not remove this or risk form bot signups
-				<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_0d9ee34e7472722183c711a2f_fc9d9887c4" tabindex="-1" value=""></div>
-				<input type="submit" value="Get Free Workout Plan" name="subscribe" id="mc-embedded-subscribe" class="main-button fwp-submit">
-			</form>
-		</section> -->
-
-		<!-- Contact Form -->
-		<section id="getPlan">
-			<div class="ff-61a659aaaadf79eb400352c4" data-ff-el="root" data-ff-version="3" data-ff-type="inline" data-ff-name="ribbonBanner">
-  		<div data-ff-el="config" data-ff-config="eyJ0cmlnZ2VyIjp7Im1vZGUiOiJpbW1lZGlhdGVseSIsInZhbHVlIjowfSwib25TdWNjZXNzIjp7Im1vZGUiOiJtZXNzYWdlIiwibWVzc2FnZSI6IiIsInJlZGlyZWN0VXJsIjoiIn0sImNvaSI6dHJ1ZSwic2hvd0ZvclJldHVyblZpc2l0b3JzIjp0cnVlLCJub3RpZmljYXRpb24iOnRydWV9" style="display: none"></div>
-  	
-    	<form class="fwp-contact-form ff-61a659aaaadf79eb400352c4__form" action="https://form.flodesk.com/forms/61a659aaaadf79eb400352c4/submit" method="post" data-ff-el="form">
-				<p class="indicates-required"><span class="asterisk">*</span> indicates required</p>
-				<label class="ff-61a659aaaadf79eb400352c4__label fd-form-label">First name <span class="asterisk">*</span> :</label>
-        <input class="fwp-input ff-61a659aaaadf79eb400352c4__control fd-form-control" type="text" name="firstName" placeholder="First Name" data-ff-tab="firstName::lastName" required />
-
-				<label class="ff-61a659aaaadf79eb400352c4__label fd-form-label">Last name <span class="asterisk">*</span> :</label>
-        <input class="fwp-input ff-61a659aaaadf79eb400352c4__control fd-form-control" type="text" name="lastName" placeholder="Last Name" data-ff-tab="lastName:firstName:email" required />
-
-				<label class="ff-61a659aaaadf79eb400352c4__label fd-form-label">Email <span class="asterisk">*</span> :</label>
-        <input class="fwp-input ff-61a659aaaadf79eb400352c4__control fd-form-control" type="text" name="email" placeholder="Email" data-ff-tab="email:lastName:submit" required />
-
-        <input type="text" name="confirm_email_address" style="display: none" />
-        
-      	<input type="submit" data-ff-el="submit" data-ff-tab="submit" value="Get Free Workout Plan" name="subscribe" id="mc-embedded-subscribe" class="main-button fwp-submit ff-61a659aaaadf79eb400352c4__button fd-btn">
-
-      	<div class="ff-61a659aaaadf79eb400352c4__error fd-form-error" data-ff-el="error"></div>
-
-    	</form>
-  		</div>
-			</div>
+		<section class="get-plan">
+			<a href="https://view.flodesk.com/pages/61a68146aadf79eb40035343"><button class="main-button">Get Free Workout Plan</button></a>	
 		</section>
 
 	<?php endwhile; ?>

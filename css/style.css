@@ -170,15 +170,6 @@ footer a:hover {
   color: #BB2929;
 }
 
-#mce-success-response {
-  font-family: "Quicksand", sans-serif;
-}
-
-#mce-error-response {
-  font-family: "Quicksand", sans-serif;
-  color: #BB2929;
-}
-
 @media screen and (min-width: 600px) {
   .fwp-input {
     width: 50vw;
@@ -234,6 +225,15 @@ footer a:hover {
 
 .tim p {
   text-align: justify;
+}
+
+.get-plan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  padding: 3rem;
 }
 
 @media screen and (min-width: 900px) {

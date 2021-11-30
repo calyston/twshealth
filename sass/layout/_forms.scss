@@ -29,6 +29,7 @@
   margin-top: 1.6rem;
 }
 
+//Put an * in a span with this class
 .indicates-required {
   width: 100%;
   text-align: right;
@@ -39,14 +40,6 @@
   color: $red;
 }
 
-#mce-success-response {
-  font-family: $body-font;
-}
-
-#mce-error-response {
-  font-family: $body-font;
-  color: $red;
-}
 
 @media screen and (min-width: 600px) {
   .fwp-input {
