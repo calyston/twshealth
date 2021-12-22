@@ -210,6 +210,23 @@ footer a:hover {
   color: #BB2929;
 }
 
+#footer-logo {
+  height: 5rem;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3rem 0;
+}
+.footer-list ul {
+  text-transform: uppercase;
+}
+.footer-list a {
+  text-decoration: none;
+}
+
 .sns {
   display: flex;
   flex-direction: row;
@@ -218,6 +235,22 @@ footer a:hover {
   padding-bottom: 3rem;
 }
 
+@media screen and (min-width: 600px) {
+  .footer-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .footer-list ul {
+    text-align: left;
+  }
+
+  .sns {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
 .fwp-contact-form {
   display: flex;
   flex-direction: column;
@@ -384,7 +417,7 @@ footer a:hover {
     justify-self: end;
   }
 }
-.page-content {
+.page-content, .footer-content {
   width: 90vw;
   margin: 0 auto;
 }
