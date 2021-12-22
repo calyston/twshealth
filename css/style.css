@@ -109,6 +109,22 @@ h1, h2, p, img, li, span {
   padding: 1rem;
 }
 
+.hero-about {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://tws.health/wp-content/uploads/2021/11/landing-page-3-scaled.jpeg");
+  background-size: cover;
+  background-position: top;
+  width: 100vw;
+  height: 50vh;
+}
+
+.page-title-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 footer {
   text-align: center;
   background-color: #4D4D4D;
@@ -283,6 +299,21 @@ footer a:hover {
     justify-self: end;
   }
 }
+.page-content {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.about-page-img {
+  width: 100%;
+  margin-top: 3rem;
+  box-shadow: #4D4D4D 3px 3px 6px;
+}
+
+.about-page-text {
+  text-align: justify;
+}
+
 .page-template-page-coming-soon {
   display: flex;
   flex-direction: column;

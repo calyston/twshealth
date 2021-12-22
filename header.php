@@ -3,6 +3,9 @@
 <html <?php language_attributes(); ?>>
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
+<meta name="copyright" content="© TWS Health & Wellness 2021." />
+<meta name="description" content="Bring Balance To Your Being." />
+<meta name="keywords" content="health, wellness, balance, nutrition, lifestyle" />
 <meta name="viewport" content="width=device-width" />
 <title>
 	<?php bloginfo('name'); ?> | 
@@ -34,8 +37,7 @@
 			<a href="https://tws.health"><img id="logo" src="https://tws.health/wp-content/uploads/2021/11/logo.png" alt="logo"></a>
 				<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 			</nav>
-			;?>
 			<?php } ?>
-</header>
+	</header>
 
 <main>
