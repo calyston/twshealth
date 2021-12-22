@@ -6,9 +6,15 @@
 }
 
 .about-page-img {
-  width: 100%;
-  margin-top: 3rem;
-  box-shadow: $main-shadow;
+  margin: 3rem 0;
+
+  img {
+    width: 100%;
+    // margin: 3rem 0;
+    box-shadow: $main-shadow;
+    padding: 0;
+    margin: 0;
+  }
 }
 
 .about-page-text {

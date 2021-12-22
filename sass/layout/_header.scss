@@ -3,7 +3,7 @@
 //Hero Banners
 
 .hero-about {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://tws.health/wp-content/uploads/2021/11/landing-page-3-scaled.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://tws.health/wp-content/uploads/2021/11/landing-page-3-scaled.jpeg");
   background-size: cover;
   background-position: top;
   width: 100vw;
@@ -16,4 +16,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  h1 {
+    color: white;
+  }
+}
+
+//Tablet & Desktop View
+
+@media screen and (min-width: 600px) {
+  .hero-about {
+    height: 90vh;
+  }
 }

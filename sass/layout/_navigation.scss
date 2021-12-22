@@ -1,6 +1,65 @@
 //Navigation
 
+nav {
+  width: 90vw;
+  margin: 0 auto;
+  height: 5vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  ul {
+    display: flex;
+    text-transform: uppercase;
+  }
+
+  li {
+    padding: 1rem;
+    margin-bottom: 0;
+  }
+
+  a {
+    color: $dark-grey;
+    text-decoration: none;
+    transition: $main-transition;
+  }
+
+  a:hover {
+    color: $red;
+  }
+}
+
 #logo {
-  height: 5rem;
-  padding: 1rem;
+  height: 4vh;
+  padding: 0.5rem;
+}
+
+//Tablet & Desktop View
+
+@media screen and (min-width: 600px) {
+  nav {
+    height: 7vh;
+  }
+  
+  #logo {
+    height: 6vh;
+    padding: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  nav {
+    height: 10vh;
+  }
+  
+  #logo {
+    height: 8vh;
+    padding: 0.5rem;
+  }
 }

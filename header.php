@@ -35,7 +35,11 @@
 		<?php } else { ?>
 			<nav>
 			<a href="https://tws.health"><img id="logo" src="https://tws.health/wp-content/uploads/2021/11/logo.png" alt="logo"></a>
+			<div class="nav-links">
 				<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+				<button class="nav-button">Book A Call</button>
+			</div>	
+
 			</nav>
 			<?php } ?>
 	</header>
