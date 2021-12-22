@@ -160,6 +160,15 @@ nav {
     padding: 0.5rem;
   }
 }
+.first-item {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.second-item {
+  grid-column: 2;
+}
+
 .hero-about {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://tws.health/wp-content/uploads/2021/11/landing-page-3-scaled.jpeg");
   background-size: cover;
@@ -391,9 +400,25 @@ footer a:hover {
 }
 
 .about-page-text {
+  margin: 3rem 0;
   text-align: justify;
+  width: 100%;
 }
 
+@media screen and (min-width: 600px) {
+  .about-page-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .about-page-img img {
+    width: 95%;
+  }
+
+  .about-page-text {
+    width: 95%;
+  }
+}
 .page-template-page-coming-soon {
   display: flex;
   flex-direction: column;

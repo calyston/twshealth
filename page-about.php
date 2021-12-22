@@ -17,8 +17,9 @@ get_header();?>
 <?php if ( have_posts() ) : ?>
 	<?php while ( have_posts() ) : the_post(); ?>
 
-	
-  <?php the_content(); ?>
+  <section class="about-page-content">
+    <?php the_content(); ?>
+  </section>
 
 	<?php endwhile; ?>
 
