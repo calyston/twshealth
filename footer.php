@@ -7,7 +7,7 @@
     <a href="https://tws.health"><img id="footer-logo" src="https://tws.health/wp-content/uploads/2021/12/logo-3-white.png" alt="logo"></a>
     <section class="footer-list">
       <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
-      <div>
+      <div class="footer-contact">
         <p>Phone: 07XXX-XXX-XXX</p>
         <p>Email: xxx@tws.health</p>
       </div>

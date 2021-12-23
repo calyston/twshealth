@@ -1,18 +1,14 @@
-//About Page
+//Services Page
 
-.page-content, .footer-content {
-  width: 90vw;
-  margin: 0 auto;
-}
+//Services Section
 
-.about-page-content {
+.services-content {
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
-.about-page-img {
+.services-img {
   margin: 3rem 0;
 
   img {
@@ -23,28 +19,30 @@
   }
 }
 
-.about-page-text {
+.services-text {
   margin: 3rem 0;
   text-align: justify;
   width: 100%;
 }
 
+//Pricing Section
+
 //Tablet & Desktop View
 
 @media screen and (min-width: 600px) {
 
-  .about-page-content {
+  .services-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
 
-  .about-page-img {
+  .services-img {
     img {
       width: 95%;
     }
   }
 
-  .about-page-text {
+  .services-text {
     width: 95%;
   }
 }
