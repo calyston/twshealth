@@ -18,6 +18,14 @@
   height: 50vh;
 }
 
+.hero-testimonials {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://tws.health/wp-content/uploads/2021/11/landing-page-2-scaled.jpeg");
+  background-size: cover;
+  background-position: top;
+  width: 100%;
+  height: 50vh;
+}
+
 .page-title-container {
   width: 100%;
   height: 100%;
@@ -33,7 +41,7 @@
 //Tablet & Desktop View
 
 @media screen and (min-width: 600px) {
-  .hero-about, .hero-services {
+  .hero-about, .hero-services, .hero-testimonials {
     height: 90vh;
   }
 }

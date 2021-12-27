@@ -1,5 +1,36 @@
 //Footer
 
+//Call to Action Footer
+
+.cta-footer {
+  display: flex;
+  flex-direction: column;
+  
+  div {
+    background-color: $light-grey;
+    text-align: center;
+  }
+
+  img {
+    width: 100%;
+    margin-bottom: -1rem;
+  }
+
+  p {
+    width: 90vw;
+    margin: 0 auto;
+    margin-top: 1.6rem;
+    margin-bottom: 1.6rem;
+  }
+
+  .cta-button {
+    margin-top: -3rem;
+  }
+}
+
+
+//Actual Footer
+
 footer {
   width: 100%;
   text-align: center;
@@ -19,6 +50,11 @@ footer {
   a:hover {
     color: $red;
   }
+}
+
+.footer-content {
+  width: 90vw;
+  margin: 0 auto;
 }
 
 #footer-logo {
@@ -51,6 +87,41 @@ footer {
 //Tablet & Desktop View
 
 @media screen and (min-width: 600px) {
+
+  //Call to Action Footer
+  .cta-footer {
+    
+    div {
+      display: flex;
+    flex-direction: row;
+    align-items: center;
+      background-color: $light-grey;
+      text-align: center;
+    }
+  
+    img {
+      width: 100%;
+      margin-bottom: 0;
+      margin-right: -1rem;
+    }
+  
+    p {
+      width: 80vw;
+      margin: 0 auto;
+      padding: 1.6rem;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  
+    .cta-button {
+      margin-top: 0;
+      margin-left: -6rem;
+      white-space: nowrap;
+    }
+  }
+
+
+  //Actual Footer
   .footer-list {
     display: flex;
     flex-direction: row;

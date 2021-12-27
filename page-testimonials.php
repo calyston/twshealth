@@ -7,7 +7,7 @@ get_header();?>
 <!-- Testimonials Page -->
 
 <!-- Hero Banner -->
-<div class="hero-about">
+<div class="hero-testimonials">
   <div class="page-title-container">
     <h1><?php the_title(); ?></h1>
   </div>

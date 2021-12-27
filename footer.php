@@ -1,6 +1,14 @@
 <?php ?>
 
 </main>
+<section class="cta-footer">
+  <div>
+    <img src="https://tws.health/wp-content/uploads/2021/11/landing-page-2-scaled.jpeg">
+    <button class="main-button cta-button">Book A Call</button>
+    <p>Let's have a discussion to see what your goals are and how I can help get you there. Completely free, no obligation.</p>
+  </div>
+  
+</section>
 
 <footer>
   <section class="footer-content">
