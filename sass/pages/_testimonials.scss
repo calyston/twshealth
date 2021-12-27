@@ -1,0 +1,49 @@
+//Testimonials
+
+.testimonials-page-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testimonials-tagline {
+  margin-top: 1.6rem;
+}
+
+.testimonial-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  border: none;
+  box-shadow: $main-shadow;
+  border-radius: 3rem;
+  padding: 3rem;
+  background-color: $light-grey;
+  margin: 3rem;
+
+  img {
+    width: 50%;
+    height: auto;
+  }
+}
+
+//Tablet & Desktop View
+
+@media screen and (min-width: 1024px) {
+  .testimonial-box {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    text-align: justify;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+
+}

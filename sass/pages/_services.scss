@@ -27,6 +27,59 @@
 
 //Pricing Section
 
+.pricing-content {
+  text-align: center;
+}
+
+.product-boxes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  border: none;
+  box-shadow: $main-shadow;
+  border-radius: 3rem;
+  padding: 3rem;
+  background-color: $light-grey;
+  margin: 3rem;
+
+  h1 {
+    color: $red;
+    font-size: 5.6rem;
+    margin: 0;
+  }
+
+  svg {
+    fill: $red;
+    height: 1.6rem;
+    padding-right: 1rem;
+  }
+
+  li {
+    text-align: justify;
+  }
+}
+
+.highlighted-product {
+  background-color: $red;
+  color: white;
+
+  h1, h3, p, li {
+    color: white;
+  }
+
+  svg {
+    fill: white;
+  }
+}
+
 //Tablet & Desktop View
 
 @media screen and (min-width: 600px) {
@@ -44,5 +97,14 @@
 
   .services-text {
     width: 95%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+
+  .product-boxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: stretch;
   }
 }

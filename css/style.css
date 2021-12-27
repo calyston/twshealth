@@ -104,6 +104,10 @@ h1, h2, p, img, li, span {
   margin-bottom: 1.6rem;
 }
 
+strong {
+  font-weight: 700;
+}
+
 nav {
   width: 90vw;
   margin: 0 auto;
@@ -111,10 +115,11 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  background-color: white;
 }
 
 .nav-links {
-  display: flex;
+  display: none;
   flex-direction: row;
   align-items: center;
 }
@@ -150,9 +155,31 @@ nav {
     padding: 0.5rem;
   }
 }
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 1024px) {
   nav {
     height: 10vh;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .nav-links ul {
+    display: flex;
+    text-transform: uppercase;
+  }
+  .nav-links li {
+    padding: 1rem;
+    margin-bottom: 0;
+  }
+  .nav-links a {
+    color: #4D4D4D;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+  }
+  .nav-links a:hover {
+    color: #BB2929;
   }
 
   #logo {
@@ -493,6 +520,54 @@ footer a:hover {
   width: 100%;
 }
 
+.pricing-content {
+  text-align: center;
+}
+
+.product-boxes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  border: none;
+  box-shadow: #4D4D4D 5px 5px 0px;
+  border-radius: 3rem;
+  padding: 3rem;
+  background-color: #EDEDED;
+  margin: 3rem;
+}
+.product-box h1 {
+  color: #BB2929;
+  font-size: 5.6rem;
+  margin: 0;
+}
+.product-box svg {
+  fill: #BB2929;
+  height: 1.6rem;
+  padding-right: 1rem;
+}
+.product-box li {
+  text-align: justify;
+}
+
+.highlighted-product {
+  background-color: #BB2929;
+  color: white;
+}
+.highlighted-product h1, .highlighted-product h3, .highlighted-product p, .highlighted-product li {
+  color: white;
+}
+.highlighted-product svg {
+  fill: white;
+}
+
 @media screen and (min-width: 600px) {
   .services-content {
     display: grid;
@@ -505,6 +580,54 @@ footer a:hover {
 
   .services-text {
     width: 95%;
+  }
+}
+@media screen and (min-width: 900px) {
+  .product-boxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: stretch;
+  }
+}
+.testimonials-page-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testimonials-tagline {
+  margin-top: 1.6rem;
+}
+
+.testimonial-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  border: none;
+  box-shadow: #4D4D4D 5px 5px 0px;
+  border-radius: 3rem;
+  padding: 3rem;
+  background-color: #EDEDED;
+  margin: 3rem;
+}
+.testimonial-box img {
+  width: 50%;
+  height: auto;
+}
+
+@media screen and (min-width: 1024px) {
+  .testimonial-box {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    text-align: justify;
+  }
+  .testimonial-box img {
+    width: 100%;
+    height: auto;
   }
 }
 .page-template-page-coming-soon {

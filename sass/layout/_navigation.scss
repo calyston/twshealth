@@ -7,10 +7,11 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  background-color: white;
 }
 
 .nav-links {
-  display: flex;
+  display: none;
   flex-direction: row;
   align-items: center;
 
@@ -53,9 +54,35 @@ nav {
   }
 }
 
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 1024px) {
   nav {
     height: 10vh;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  
+    ul {
+      display: flex;
+      text-transform: uppercase;
+    }
+  
+    li {
+      padding: 1rem;
+      margin-bottom: 0;
+    }
+  
+    a {
+      color: $dark-grey;
+      text-decoration: none;
+      transition: $main-transition;
+    }
+  
+    a:hover {
+      color: $red;
+    }
   }
   
   #logo {
