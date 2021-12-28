@@ -3,7 +3,7 @@
 nav {
   width: 90vw;
   margin: 0 auto;
-  height: 5vh;
+  height: 7vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -37,8 +37,29 @@ nav {
 }
 
 #logo {
-  height: 4vh;
+  height: 5vh;
   padding: 0.5rem;
+}
+
+//Shift Nav
+
+#shiftnav-toggle-main {
+  background-color: transparent!important;
+}
+
+.shiftnav-inner {
+  background-color: $dark-grey!important;
+  color: white;
+  text-transform: uppercase;
+  text-align: left;
+
+  a {
+    color: white;
+  }
+}
+
+.shiftnav-panel-close {
+  background-color: $dark-grey!important;
 }
 
 //Tablet & Desktop View

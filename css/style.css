@@ -111,7 +111,7 @@ strong {
 nav {
   width: 90vw;
   margin: 0 auto;
-  height: 5vh;
+  height: 7vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -141,8 +141,26 @@ nav {
 }
 
 #logo {
-  height: 4vh;
+  height: 5vh;
   padding: 0.5rem;
+}
+
+#shiftnav-toggle-main {
+  background-color: transparent !important;
+}
+
+.shiftnav-inner {
+  background-color: #4D4D4D !important;
+  color: white;
+  text-transform: uppercase;
+  text-align: left;
+}
+.shiftnav-inner a {
+  color: white;
+}
+
+.shiftnav-panel-close {
+  background-color: #4D4D4D !important;
 }
 
 @media screen and (min-width: 600px) {
