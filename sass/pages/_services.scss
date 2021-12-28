@@ -13,6 +13,7 @@
 
   img {
     width: 100%;
+    height: auto;
     box-shadow: $main-shadow;
     padding: 0;
     margin: 0;
@@ -92,6 +93,7 @@
   .services-img {
     img {
       width: 95%;
+      height: auto;
     }
   }
 
@@ -106,5 +108,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: stretch;
+    justify-items: center;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .product-box {
+    width: 15vw;
   }
 }

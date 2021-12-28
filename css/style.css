@@ -249,7 +249,7 @@ nav {
   color: white;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1024px) {
   .hero-about, .hero-services, .hero-testimonials {
     height: 90vh;
   }
@@ -367,6 +367,10 @@ footer a:hover {
   .sns {
     width: 50%;
     margin: 0 auto;
+  }
+
+  a {
+    text-decoration: none;
   }
 }
 .fwp-contact-form {
@@ -551,6 +555,7 @@ footer a:hover {
 }
 .about-page-img img {
   width: 100%;
+  height: auto;
   box-shadow: #4D4D4D 5px 5px 0px;
   padding: 0;
   margin: 0;
@@ -570,6 +575,7 @@ footer a:hover {
 
   .about-page-img img {
     width: 95%;
+    height: auto;
   }
 
   .about-page-text {
@@ -587,6 +593,7 @@ footer a:hover {
 }
 .services-img img {
   width: 100%;
+  height: auto;
   box-shadow: #4D4D4D 5px 5px 0px;
   padding: 0;
   margin: 0;
@@ -654,6 +661,7 @@ footer a:hover {
 
   .services-img img {
     width: 95%;
+    height: auto;
   }
 
   .services-text {
@@ -665,6 +673,12 @@ footer a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: stretch;
+    justify-items: center;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .product-box {
+    width: 15vw;
   }
 }
 .testimonials-page-content {
@@ -695,6 +709,12 @@ footer a:hover {
   height: auto;
 }
 
+@media screen and (min-width: 600px) {
+  .testimonials-page-content {
+    width: 75vw;
+    margin: auto;
+  }
+}
 @media screen and (min-width: 1024px) {
   .testimonial-box {
     display: flex;
