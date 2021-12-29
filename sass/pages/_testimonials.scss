@@ -31,6 +31,13 @@
 
 //Tablet & Desktop View
 
+@media screen and (min-width: 600px) {
+  .testimonials-page-content {
+    width: 75vw;
+    margin: auto;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .testimonial-box {
     display: flex;

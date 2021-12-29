@@ -274,8 +274,13 @@ nav {
   color: white;
 }
 
+<<<<<<< HEAD
 @media screen and (min-width: 600px) {
   .hero-home, .hero-about, .hero-services, .hero-testimonials {
+=======
+@media screen and (min-width: 1024px) {
+  .hero-about, .hero-services, .hero-testimonials {
+>>>>>>> 3e4abc37291c54d9b9a0833f13a1794443baa890
     height: 90vh;
   }
 
@@ -732,6 +737,12 @@ footer a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: stretch;
+    justify-items: center;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .product-box {
+    width: 15vw;
   }
 }
 .testimonials-page-content {
@@ -762,6 +773,12 @@ footer a:hover {
   height: auto;
 }
 
+@media screen and (min-width: 600px) {
+  .testimonials-page-content {
+    width: 75vw;
+    margin: auto;
+  }
+}
 @media screen and (min-width: 1024px) {
   .testimonial-box {
     display: flex;

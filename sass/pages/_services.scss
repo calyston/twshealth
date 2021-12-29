@@ -108,5 +108,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: stretch;
+    justify-items: center;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .product-box {
+    width: 15vw;
   }
 }
