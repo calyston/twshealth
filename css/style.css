@@ -373,11 +373,14 @@ footer a:hover {
     align-items: center;
     background-color: #EDEDED;
     text-align: center;
+    height: 50vh;
   }
   .cta-footer img {
     width: 100%;
     margin-bottom: 0;
     margin-right: -1rem;
+    height: 50vh;
+    object-fit: cover;
   }
   .cta-footer p {
     width: 80vw;
@@ -817,7 +820,11 @@ footer a:hover {
 .contact-form {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
+}
+.contact-form div {
+  display: flex;
+  flex-direction: column;
 }
 .contact-form span {
   color: #BB2929;
@@ -831,15 +838,17 @@ footer a:hover {
   border: 0.1rem solid #4D4D4D;
   border-radius: 5rem;
   box-shadow: #4D4D4D 5px 5px 0px;
-  width: 90%;
+  width: 30rem;
 }
 .contact-form textarea {
+  border-radius: 2.5rem;
   height: 10rem;
 }
 
 #contact-submit {
   border: none;
-  width: 50%;
+  width: fit-content;
+  padding: 1.6rem 3.2rem;
   margin: 3rem auto;
 }
 
@@ -856,6 +865,10 @@ footer a:hover {
 @media screen and (min-width: 900px) {
   .contact-form-container {
     width: 50%;
+  }
+
+  input, textarea {
+    width: 40rem;
   }
 }
 .page-template-page-coming-soon {

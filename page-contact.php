@@ -25,17 +25,26 @@ get_header();?>
     <section class="contact-form-container">
       <form class="contact-form" action="action_page.php">
 
-      <label for="fname">First Name<span>*</span>:</label>
-      <input type="text" id="fname" name="firstname" placeholder="First Name">
-
-      <label for="lname">Last Name<span>*</span>:</label>
-      <input type="text" id="lname" name="lastname" placeholder="Last Name">
-
-      <label for="lname">Email<span>*</span>:</label>
-      <input type="email" id="email" name="email" placeholder="Email">
-
-      <label for="message">Message<span>*</span>:</label>
-      <textarea id="message" name="message" placeholder="Message"></textarea>
+      <div>
+        <label for="fname">First Name<span>*</span>:</label>
+        <input type="text" id="fname" name="firstname" placeholder="First Name">
+      </div>
+      
+      <div>
+        <label for="lname">Last Name<span>*</span>:</label>
+        <input type="text" id="lname" name="lastname" placeholder="Last Name">
+      </div>
+      
+      <div>
+        <label for="lname">Email<span>*</span>:</label>
+        <input type="email" id="email" name="email" placeholder="Email">
+      </div>
+      
+      <div>
+        <label for="message">Message<span>*</span>:</label>
+        <textarea id="message" name="message" placeholder="Message"></textarea>
+      </div>
+      
 
       <input id="contact-submit" class="main-button" type="submit" value="Submit">
 

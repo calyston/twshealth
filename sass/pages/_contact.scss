@@ -32,7 +32,12 @@
 .contact-form {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
+
+  div {
+    display: flex;
+    flex-direction: column;
+  }
 
   span {
     color: $red;
@@ -48,17 +53,19 @@
     border: 0.1rem solid $dark-grey;
     border-radius: 5rem;
     box-shadow: $main-shadow;
-    width: 90%;
+    width: 30rem;
   }
 
   textarea {
+    border-radius: 2.5rem;
     height: 10rem;
   }
 }
 
 #contact-submit {
   border: none;
-  width: 50%;
+  width: fit-content;
+  padding: 1.6rem 3.2rem;
   margin: 3rem auto;
 }
 
@@ -78,5 +85,9 @@
 @media screen and (min-width: 900px) {
   .contact-form-container {
     width: 50%;
+  }
+
+  input, textarea {
+    width: 40rem;
   }
 }
