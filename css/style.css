@@ -274,13 +274,8 @@ nav {
   color: white;
 }
 
-<<<<<<< HEAD
-@media screen and (min-width: 600px) {
-  .hero-home, .hero-about, .hero-services, .hero-testimonials {
-=======
 @media screen and (min-width: 1024px) {
-  .hero-about, .hero-services, .hero-testimonials {
->>>>>>> 3e4abc37291c54d9b9a0833f13a1794443baa890
+  .hero-home, .hero-about, .hero-services, .hero-testimonials {
     height: 90vh;
   }
 
