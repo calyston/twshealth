@@ -1,0 +1,82 @@
+//Contact Page
+
+.contact-page-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-sns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 3rem;
+  width: 100%;
+
+  a {
+    color: $orange;
+    transition: $main-transition;
+    cursor: pointer;
+  }
+
+  a:hover {
+    color: $red;
+  }
+}
+
+.contact-form-container {
+  width: 100%;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  span {
+    color: $red;
+  }
+
+  label {
+    padding: 2.5rem 0;
+    padding-bottom: 0.5rem;
+  }
+
+  input, textarea {
+    padding: 1rem 1.6rem;
+    border: 0.1rem solid $dark-grey;
+    border-radius: 5rem;
+    box-shadow: $main-shadow;
+    width: 90%;
+  }
+
+  textarea {
+    height: 10rem;
+  }
+}
+
+#contact-submit {
+  border: none;
+  width: 50%;
+  margin: 3rem auto;
+}
+
+//Tablet & Desktop View
+
+@media screen and (min-width: 600px) {
+  .contact-sns {
+    width: 50%;
+    margin: auto;
+  }
+
+  .contact-form-container {
+    width: 75%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .contact-form-container {
+    width: 50%;
+  }
+}

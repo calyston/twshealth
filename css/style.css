@@ -92,7 +92,7 @@ h4 {
   font-size: 1.6rem;
 }
 
-p, li, span, input, label, button {
+p, li, span, input, label, button, textarea {
   font-family: "Quicksand", sans-serif;
   font-weight: normal;
   font-size: 1.6rem;
@@ -785,6 +785,77 @@ footer a:hover {
   .testimonial-box img {
     width: 100%;
     height: auto;
+  }
+}
+.contact-page-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-sns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 3rem;
+  width: 100%;
+}
+.contact-sns a {
+  color: #F7931E;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.contact-sns a:hover {
+  color: #BB2929;
+}
+
+.contact-form-container {
+  width: 100%;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.contact-form span {
+  color: #BB2929;
+}
+.contact-form label {
+  padding: 2.5rem 0;
+  padding-bottom: 0.5rem;
+}
+.contact-form input, .contact-form textarea {
+  padding: 1rem 1.6rem;
+  border: 0.1rem solid #4D4D4D;
+  border-radius: 5rem;
+  box-shadow: #4D4D4D 5px 5px 0px;
+  width: 90%;
+}
+.contact-form textarea {
+  height: 10rem;
+}
+
+#contact-submit {
+  border: none;
+  width: 50%;
+  margin: 3rem auto;
+}
+
+@media screen and (min-width: 600px) {
+  .contact-sns {
+    width: 50%;
+    margin: auto;
+  }
+
+  .contact-form-container {
+    width: 75%;
+  }
+}
+@media screen and (min-width: 900px) {
+  .contact-form-container {
+    width: 50%;
   }
 }
 .page-template-page-coming-soon {
