@@ -214,6 +214,14 @@ nav {
   grid-column: 2;
 }
 
+.hero-home {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://tws.health/wp-content/uploads/2021/11/landing-page-2-scaled.jpeg");
+  background-size: cover;
+  background-position: top;
+  width: 100%;
+  height: 50vh;
+}
+
 .hero-about {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://tws.health/wp-content/uploads/2021/11/landing-page-3-scaled.jpeg");
   background-size: cover;
@@ -238,6 +246,23 @@ nav {
   height: 50vh;
 }
 
+.page-title-container-home {
+  width: 95vw;
+  margin: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.page-title-container-home h1, .page-title-container-home h3 {
+  color: white;
+  text-align: center;
+}
+.page-title-container-home h3 {
+  font-size: 1.6rem;
+}
+
 .page-title-container {
   width: 100%;
   height: 100%;
@@ -250,8 +275,25 @@ nav {
 }
 
 @media screen and (min-width: 600px) {
-  .hero-about, .hero-services, .hero-testimonials {
+  .hero-home, .hero-about, .hero-services, .hero-testimonials {
     height: 90vh;
+  }
+
+  .page-title-container-home {
+    width: 95vw;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .page-title-container-home h1, .page-title-container-home h3 {
+    width: 50%;
+    text-align: justify;
+  }
+  .page-title-container-home h3 {
+    font-size: 2.4rem;
   }
 }
 .cta-footer {
@@ -367,6 +409,10 @@ footer a:hover {
   .sns {
     width: 50%;
     margin: 0 auto;
+  }
+
+  a {
+    text-decoration: none;
   }
 }
 .fwp-contact-form {
@@ -540,6 +586,23 @@ footer a:hover {
   margin: 0 auto;
 }
 
+.home-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.home-about h2 {
+  margin-top: 3rem;
+}
+.home-about p {
+  text-align: justify;
+}
+.home-about button {
+  width: 50%;
+  margin: auto;
+}
+
 .about-page-content {
   display: flex;
   flex-direction: column;
@@ -551,6 +614,7 @@ footer a:hover {
 }
 .about-page-img img {
   width: 100%;
+  height: auto;
   box-shadow: #4D4D4D 5px 5px 0px;
   padding: 0;
   margin: 0;
@@ -570,6 +634,7 @@ footer a:hover {
 
   .about-page-img img {
     width: 95%;
+    height: auto;
   }
 
   .about-page-text {
@@ -587,6 +652,7 @@ footer a:hover {
 }
 .services-img img {
   width: 100%;
+  height: auto;
   box-shadow: #4D4D4D 5px 5px 0px;
   padding: 0;
   margin: 0;
@@ -654,6 +720,7 @@ footer a:hover {
 
   .services-img img {
     width: 95%;
+    height: auto;
   }
 
   .services-text {

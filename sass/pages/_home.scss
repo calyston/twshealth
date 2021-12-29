@@ -1,1 +1,26 @@
 //Homepage
+
+.page-content {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.home-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  h2 {
+    margin-top: 3rem;
+  }
+
+  p {
+    text-align: justify;
+  }
+
+  button {
+    width: 50%;
+    margin: auto;
+  }
+}
