@@ -11,9 +11,9 @@ get_header(); ?>
 	<?php while ( have_posts() ) : the_post(); ?>
 
 	<!-- Redirect To Coming Soon Page -->
-	<script type="text/javascript">
+	<!-- <script type="text/javascript">
     window.location = "https://tws.health/coming-soon";
-	</script>
+	</script> -->
 
 	<?php endwhile;  ?>
 
@@ -23,4 +23,4 @@ get_header(); ?>
 		</article>
 	<?php endif; ?>
 
-<!-- <?php get_footer(); ?> -->
+<?php get_footer(); ?>

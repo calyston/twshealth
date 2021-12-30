@@ -24,3 +24,10 @@
     margin: auto;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .page-content {
+    width: 80vw;
+    margin: 0 auto;
+  }
+}

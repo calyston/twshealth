@@ -238,6 +238,14 @@ nav {
   height: 50vh;
 }
 
+.hero-top-tips {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://tws.health/wp-content/uploads/2021/11/landing-page-2-scaled.jpeg");
+  background-size: cover;
+  background-position: top;
+  width: 100%;
+  height: 50vh;
+}
+
 .hero-testimonials {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://tws.health/wp-content/uploads/2021/11/landing-page-2-scaled.jpeg");
   background-size: cover;
@@ -275,7 +283,7 @@ nav {
 }
 
 @media screen and (min-width: 1024px) {
-  .hero-home, .hero-about, .hero-services, .hero-testimonials {
+  .hero-home, .hero-about, .hero-services, .hero-top-tips, .hero-testimonials {
     height: 90vh;
   }
 
@@ -606,6 +614,12 @@ footer a:hover {
   margin: auto;
 }
 
+@media screen and (min-width: 1024px) {
+  .page-content {
+    width: 80vw;
+    margin: 0 auto;
+  }
+}
 .about-page-content {
   display: flex;
   flex-direction: column;
@@ -790,6 +804,30 @@ footer a:hover {
     height: auto;
   }
 }
+.top-tips-page-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.top-tip-post {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  text-align: justify;
+  border: none;
+  box-shadow: #4D4D4D 5px 5px 0px;
+  border-radius: 3rem;
+  padding: 3rem;
+  background-color: #EDEDED;
+  margin: 3rem;
+}
+.top-tip-post img {
+  width: 30vw;
+  height: auto;
+}
+
 .contact-page-content {
   display: flex;
   flex-direction: column;

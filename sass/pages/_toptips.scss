@@ -1,0 +1,26 @@
+//Top Tips
+
+.top-tips-page-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.top-tip-post {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  text-align: justify;
+  border: none;
+  box-shadow: $main-shadow;
+  border-radius: 3rem;
+  padding: 3rem;
+  background-color: $light-grey;
+  margin: 3rem;
+  
+  img {
+    width: 30vw;
+    height: auto;
+  }
+}
