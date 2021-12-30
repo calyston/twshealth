@@ -1,12 +1,31 @@
-//Pop Up
+//Pop Ups
 
-.popup-booking {
+.popup-booking, .popup-subscribe {
   display: none;
   background-color: $light-grey;
   padding: 1.5rem;
   text-align: center;
+  border-radius: 3rem;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  opacity: 0.9;
 }
 
+
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.7);
+}
 
 .x-btn {
   display: flex;
@@ -16,4 +35,10 @@
 .close-btn {
   color: $dark-grey;
   cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .popup-booking, .popup-subscribe {
+    width: 50%;
+  }
 }

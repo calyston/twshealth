@@ -43,12 +43,13 @@
 			</nav>
 			<?php } ?>
 
-			<section id="popup-booking" class="contact-form-container popup-booking">
+			<div id="overlay"></div>
+			<section id="popup-booking" class="popup-booking">
 				<div onclick="popupBookingOff()" class="x-btn">
 					<i class="close-btn fas fa-times fa-2x"></i>
 				</div>
 				
-				<p>Fill out this contact form to make a booking.</p>
+				<h3>Please fill out this contact form to make a booking.</h3>
       	<form class="contact-form" action="action_page.php">
 
 				<div>
@@ -66,7 +67,7 @@
 					<input type="email" id="email" name="email" placeholder="Email">
 				</div>
 
-				<input id="contact-submit" class="main-button" type="submit" value="Submit">
+				<input id="contact-submit" class="main-button" type="submit" value="Get Started">
 
 			</form>
   	</section> 
