@@ -10,3 +10,13 @@ function getPlan() {
     block: "start",
   });
 }
+
+//Book A Call Pop Up
+
+function popupBookingOn() {
+  document.getElementById("popup-booking").style.display = "block";
+}
+
+function popupBookingOff() {
+  document.getElementById("popup-booking").style.display = "none";
+} 

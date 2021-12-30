@@ -37,11 +37,39 @@
 			<a href="https://tws.health"><img id="logo" src="https://tws.health/wp-content/uploads/2021/11/logo.png" alt="logo"></a>
 			<div class="nav-links">
 				<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
-				<button class="nav-button">Book A Call</button>
+				<button class="nav-button" onclick="popupBookingOn()">Book A Call</button>
 			</div>	
 
 			</nav>
 			<?php } ?>
+
+			<section id="popup-booking" class="contact-form-container popup-booking">
+				<div onclick="popupBookingOff()" class="x-btn">
+					<i class="close-btn fas fa-times fa-2x"></i>
+				</div>
+				
+				<p>Fill out this contact form to make a booking.</p>
+      	<form class="contact-form" action="action_page.php">
+
+				<div>
+					<label for="fname">First Name<span>*</span>:</label>
+					<input type="text" id="fname" name="firstname" placeholder="First Name">
+				</div>
+				
+				<div>
+					<label for="lname">Last Name<span>*</span>:</label>
+					<input type="text" id="lname" name="lastname" placeholder="Last Name">
+				</div>
+				
+				<div>
+					<label for="lname">Email<span>*</span>:</label>
+					<input type="email" id="email" name="email" placeholder="Email">
+				</div>
+
+				<input id="contact-submit" class="main-button" type="submit" value="Submit">
+
+			</form>
+  	</section> 
 	</header>
 
 <main>

@@ -501,6 +501,23 @@ footer a:hover {
   background-color: #BB2929;
 }
 
+.popup-booking {
+  display: none;
+  background-color: #EDEDED;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.x-btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.close-btn {
+  color: #4D4D4D;
+  cursor: pointer;
+}
+
 .fwp {
   display: flex;
   flex-direction: column;
@@ -877,6 +894,7 @@ footer a:hover {
   border-radius: 5rem;
   box-shadow: #4D4D4D 5px 5px 0px;
   width: 30rem;
+  cursor: pointer;
 }
 .contact-form textarea {
   border-radius: 2.5rem;
