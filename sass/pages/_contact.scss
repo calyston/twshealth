@@ -92,3 +92,11 @@
     width: 40rem;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .contact-page-content {
+    p {
+      max-width: 60vw;
+    }
+  }
+}

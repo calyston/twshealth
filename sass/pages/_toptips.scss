@@ -24,3 +24,19 @@
     height: auto;
   }
 }
+
+//Tablet & Desktop View
+
+@media screen and (min-width: 1024px) {
+  .top-tips-page-content {
+    p {
+      max-width: 60vw;
+      margin: 1.6rem auto;
+    }
+  }
+
+  .top-tip-post {
+    max-width: 60vw;
+    margin: 3rem auto;
+  }
+}

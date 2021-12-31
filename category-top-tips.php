@@ -22,7 +22,7 @@ get_header(); ?>
     <?php if ( have_posts() ) : ?>
       <?php while ( have_posts() ) : the_post(); ?>
         <article class="top-tip-post">
-          <img src=<?php the_post_thumbnail(); ?>
+          <img src=<?php the_post_thumbnail(); ?>>
           <h3><?php the_title(); ?></h3>
           <p><?php the_excerpt(); ?></p>
           <a href="<?php the_permalink();?>"><button class="main-button">Read More</button></a>

@@ -35,7 +35,7 @@ get_header(); ?>
 					<input type="email" id="email" name="email" placeholder="Email">
 				</div>
 
-				<input id="contact-submit" class="main-button" type="submit" value="Get Started">
+				<input id="contact-submit" class="main-button" type="submit" value="Sign Up">
 
 			</form>
   	</section> 
@@ -54,7 +54,6 @@ get_header(); ?>
 		<article class="post error">
 			<h1 class="404">Nothing has been posted like that yet</h1>
 		</article>
-
 	<?php endif; ?>
 </section>
 
