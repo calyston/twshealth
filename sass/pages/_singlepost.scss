@@ -4,7 +4,6 @@
   h1 {
     text-align: center;
   }
-  
 }
 
 .post-date {
@@ -28,7 +27,7 @@
 
 //Tablet & Desktop View
 
-@media  screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .post-content {
     p {
       max-width: 60vw;

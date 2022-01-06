@@ -22,11 +22,12 @@
     margin-top: 1.6rem;
     margin-bottom: 1.6rem;
   }
-
-  .cta-button {
-    margin-top: -3rem;
-  }
 }
+  
+.cta-button {
+  margin-top: -3rem;
+}
+
 
 
 //Actual Footer
@@ -89,6 +90,7 @@ footer {
 @media screen and (min-width: 600px) {
 
   //Call to Action Footer
+
   .cta-footer { 
     div {
       display: flex;
@@ -113,17 +115,17 @@ footer {
       padding: 1.6rem;
       margin-top: 0;
       margin-bottom: 0;
-    }
+    }  
+  }
   
-    .cta-button {
+  .cta-button {
       margin-top: 0;
       margin-left: -6rem;
       white-space: nowrap;
     }
-  }
-
 
   //Actual Footer
+
   .footer-list {
     display: flex;
     flex-direction: row;

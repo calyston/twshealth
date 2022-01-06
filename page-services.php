@@ -13,6 +13,7 @@ get_header();?>
   </div>
 </div>
 
+<!-- Services Page Content -->
 <section class="page-content">
 <?php if ( have_posts() ) : ?>
 	<?php while ( have_posts() ) : the_post(); ?>
@@ -21,6 +22,7 @@ get_header();?>
     <?php the_content(); ?>
   </section>
 
+  <!-- Pricing Section -->
   <section class="pricing-content">
     <div>
       <h1>Pricing</h2>

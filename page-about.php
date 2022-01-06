@@ -13,6 +13,7 @@ get_header();?>
   </div>
 </div>
 
+<!-- About Page Content -->
 <section class="page-content">
 <?php if ( have_posts() ) : ?>
 	<?php while ( have_posts() ) : the_post(); ?>

@@ -14,7 +14,6 @@
   opacity: 0.9;
 }
 
-
 #overlay {
   position: fixed;
   display: none;
@@ -36,6 +35,8 @@
   color: $dark-grey;
   cursor: pointer;
 }
+
+//Tablet & Desktop View
 
 @media screen and (min-width: 768px) {
   .popup-booking, .popup-subscribe {
