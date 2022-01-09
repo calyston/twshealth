@@ -4,43 +4,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.about-page-img {
-  margin: 3rem 0;
 
   img {
-    width: 100%;
+    margin: 3rem 0;
     height: auto;
     box-shadow: $main-shadow;
-    padding: 0;
-    margin: 0;
-  }
-}
-
-.about-page-text {
-  margin: 3rem 0;
-  text-align: justify;
-  width: 100%;
-}
-
-//Tablet & Desktop View
-
-@media screen and (min-width: 600px) {
-
-  .about-page-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .about-page-img {
-    img {
-      width: 95%;
-      height: auto;
-    }
-  }
-
-  .about-page-text {
-    width: 95%;
   }
 }

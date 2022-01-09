@@ -2,46 +2,29 @@
 
 //Hero Banners
 
-//Condense this section
-
 .hero-home {
+  @include hero-banner;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://tws.health/wp-content/uploads/2021/11/landing-page-2-scaled.jpeg");
-  background-size: cover;
-  background-position: top;
-  width: 100%;
-  height: 50vh;
 }
 
 .hero-about {
+  @include hero-banner;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://tws.health/wp-content/uploads/2021/11/landing-page-3-scaled.jpeg");
-  background-size: cover;
-  background-position: top;
-  width: 100%;
-  height: 50vh;
 }
 
 .hero-services {
+  @include hero-banner;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://tws.health/wp-content/uploads/2021/11/landing-page-2-scaled.jpeg");
-  background-size: cover;
-  background-position: top;
-  width: 100%;
-  height: 50vh;
 }
 
 .hero-top-tips {
+  @include hero-banner;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://tws.health/wp-content/uploads/2021/11/landing-page-2-scaled.jpeg");
-  background-size: cover;
-  background-position: top;
-  width: 100%;
-  height: 50vh;
 }
 
 .hero-testimonials {
+  @include hero-banner;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://tws.health/wp-content/uploads/2021/11/landing-page-2-scaled.jpeg");
-  background-size: cover;
-  background-position: top;
-  width: 100%;
-  height: 50vh;
 }
 
 .page-title-container-home {

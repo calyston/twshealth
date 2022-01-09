@@ -6,24 +6,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.services-img {
-  margin: 3rem 0;
 
   img {
-    width: 100%;
     height: auto;
     box-shadow: $main-shadow;
-    padding: 0;
-    margin: 0;
+    margin: 3rem 0;
   }
-}
-
-.services-text {
-  margin: 3rem 0;
-  text-align: justify;
-  width: 100%;
 }
 
 //Pricing Section
@@ -82,25 +70,6 @@
 }
 
 //Tablet & Desktop View
-
-@media screen and (min-width: 600px) {
-
-  .services-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .services-img {
-    img {
-      width: 95%;
-      height: auto;
-    }
-  }
-
-  .services-text {
-    width: 95%;
-  }
-}
 
 @media screen and (min-width: 900px) {
 
