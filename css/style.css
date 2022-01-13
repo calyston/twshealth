@@ -115,6 +115,7 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   background-color: white;
 }
 
@@ -122,6 +123,8 @@ nav {
   display: none;
   flex-direction: row;
   align-items: center;
+  width: 50%;
+  justify-content: space-between;
 }
 .nav-links ul {
   display: flex;
@@ -241,6 +244,7 @@ nav {
   .nav-links li {
     padding: 1rem;
     margin-bottom: 0;
+    list-style: none;
   }
   .nav-links a {
     color: #4D4D4D;
@@ -251,9 +255,18 @@ nav {
     color: #BB2929;
   }
 
+  .combined-nav-links {
+    display: flex;
+    flex-direction: row;
+  }
+
   #logo {
     height: 8vh;
     padding: 0.5rem;
+  }
+
+  .hamburger {
+    display: none;
   }
 }
 .first-item {
@@ -704,8 +717,12 @@ footer a:hover {
   margin: 0 auto;
 }
 
+.homepage {
+  margin: 3rem 0;
+}
 .homepage h2 {
   text-align: center;
+  margin: 3rem 0;
 }
 .homepage img {
   height: auto;

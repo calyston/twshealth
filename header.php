@@ -36,8 +36,10 @@
 			<nav>
 			<a href="https://tws.health"><img id="logo" src="https://tws.health/wp-content/uploads/2021/11/logo.png" alt="logo"></a>
 			<div class="nav-links">
-				<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
-				<li><a onClick='toContact()'>Contact</a></li>
+				<div class="combined-nav-links">
+					<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+					<li><a onClick='toContact()'>Contact</a></li>
+				</div>
 				<a href="https://twshealth.youcanbook.me/" target="blank"><button class="main-button cta-button"">Book A Call</button></a>
 			</div>
 			<div class="hamburger-menu">
