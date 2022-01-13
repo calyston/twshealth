@@ -567,7 +567,7 @@ footer a:hover {
   background-color: #BB2929;
 }
 
-.popup-booking, .popup-subscribe {
+.popup-subscribe {
   display: none;
   background-color: #EDEDED;
   padding: 1.5rem;
@@ -604,7 +604,7 @@ footer a:hover {
 }
 
 @media screen and (min-width: 768px) {
-  .popup-booking, .popup-subscribe {
+  .popup-subscribe {
     width: 50%;
   }
 }
@@ -702,6 +702,13 @@ footer a:hover {
 .page-content {
   width: 90vw;
   margin: 0 auto;
+}
+
+.homepage h2 {
+  text-align: center;
+}
+.homepage img {
+  height: auto;
 }
 
 .home-about {

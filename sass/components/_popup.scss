@@ -1,6 +1,6 @@
 //Pop Ups
 
-.popup-booking, .popup-subscribe {
+.popup-subscribe {
   display: none;
   background-color: $light-grey;
   padding: 1.5rem;
@@ -39,7 +39,7 @@
 //Tablet & Desktop View
 
 @media screen and (min-width: 768px) {
-  .popup-booking, .popup-subscribe {
+  .popup-subscribe {
     width: 50%;
   }
 }

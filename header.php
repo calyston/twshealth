@@ -38,7 +38,7 @@
 			<div class="nav-links">
 				<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 				<li><a onClick='toContact()'>Contact</a></li>
-				<button class="nav-button" onclick="popupBookingOn()">Book A Call</button>
+				<a href="https://twshealth.youcanbook.me/" target="blank"><button class="main-button cta-button"">Book A Call</button></a>
 			</div>
 			<div class="hamburger-menu">
 				<?php wp_nav_menu( array( 'theme_location' => 'hamburger' ) ); ?>
@@ -51,33 +51,6 @@
 			<?php } ?>
 
 			<div id="overlay"></div>
-			<section id="popup-booking" class="popup-booking">
-				<div onclick="popupBookingOff()" class="x-btn">
-					<i class="close-btn fas fa-times fa-2x"></i>
-				</div>
-				
-				<h3>Please fill out this contact form to make a booking.</h3>
-      	<form class="contact-form" action="action_page.php">
-
-				<div>
-					<label for="fname">First Name<span>*</span>:</label>
-					<input type="text" id="fname" name="firstname" placeholder="First Name">
-				</div>
-				
-				<div>
-					<label for="lname">Last Name<span>*</span>:</label>
-					<input type="text" id="lname" name="lastname" placeholder="Last Name">
-				</div>
-				
-				<div>
-					<label for="lname">Email<span>*</span>:</label>
-					<input type="email" id="email" name="email" placeholder="Email">
-				</div>
-
-				<input id="contact-submit" class="main-button" type="submit" value="Get Started">
-
-			</form>
-  	</section> 
 	</header>
 
 <main>

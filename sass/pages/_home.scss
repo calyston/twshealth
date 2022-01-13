@@ -5,6 +5,16 @@
   margin: 0 auto;
 }
 
+.homepage {
+  h2 {
+    text-align: center;
+  }
+
+  img {
+    height: auto;
+  }
+}
+
 .home-about {
   display: flex;
   flex-direction: column;

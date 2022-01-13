@@ -4,7 +4,7 @@
 <section class="cta-footer">
   <div>
     <img src="https://tws.health/wp-content/uploads/2021/11/landing-page-2-scaled.jpeg">
-    <button class="main-button cta-button" onclick="popupBookingOn()">Book A Call</button>
+    <a href="https://twshealth.youcanbook.me/" target="blank"><button class="main-button cta-button"">Book A Call</button></a>
     <p>Let's have a discussion to see what your goals are and how I can help get you there. Completely free, no obligation.</p>
   </div>
 </section>
@@ -15,7 +15,6 @@
     <section class="footer-list">
       <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
       <div class="footer-contact">
-         <p>Phone: 07XXX-XXX-XXX</p> 
         <p>Email: tim@tws.health</p>
       </div>
     </section>
