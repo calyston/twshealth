@@ -37,9 +37,16 @@
 			<a href="https://tws.health"><img id="logo" src="https://tws.health/wp-content/uploads/2021/11/logo.png" alt="logo"></a>
 			<div class="nav-links">
 				<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+				<li><a onClick='toContact()'>Contact</a></li>
 				<button class="nav-button" onclick="popupBookingOn()">Book A Call</button>
-			</div>	
-
+			</div>
+			<div class="hamburger-menu">
+				<?php wp_nav_menu( array( 'theme_location' => 'hamburger' ) ); ?>
+			</div>
+			<button class="hamburger">
+					<i class="menu-icon fas fa-bars fa-2x"></i>
+					<i class="close-icon fas fa-times fa-2x"></i>
+			</button>
 			</nav>
 			<?php } ?>
 

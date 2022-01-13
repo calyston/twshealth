@@ -77,6 +77,14 @@ footer {
   }
 }
 
+.subscribe-footer {
+  margin: 3rem 0;
+
+  button {
+    box-shadow: none;
+  }
+}
+
 .sns {
   display: flex;
   flex-direction: row;
@@ -129,7 +137,7 @@ footer {
   .footer-list {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-start;
     
     ul {
@@ -148,5 +156,12 @@ footer {
 
   a {
     text-decoration: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer-list {
+    max-width: 1000px;
+    margin: 0 auto;
   }
 }

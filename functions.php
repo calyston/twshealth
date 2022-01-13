@@ -28,6 +28,7 @@ add_theme_support( 'post-thumbnails' );
 register_nav_menus( 
 	array(
 		'primary'	=>	__( 'Primary Menu', 'twshealth' ), // Register the Primary menu
+		'hamburger'	=>	__( 'Hamburger Menu', 'twshealth' ), // Register the Primary menu
 		// Copy and paste the line above right here if you want to make another menu, 
 		// just change the 'primary' to another name
 	)

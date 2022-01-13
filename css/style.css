@@ -111,7 +111,7 @@ strong {
 nav {
   width: 90vw;
   margin: 0 auto;
-  height: 7vh;
+  height: 6rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -125,11 +125,11 @@ nav {
 }
 .nav-links ul {
   display: flex;
-  text-transform: uppercase;
 }
 .nav-links li {
   padding: 1rem;
   margin-bottom: 0;
+  text-transform: uppercase;
 }
 .nav-links a {
   color: #4D4D4D;
@@ -141,8 +141,58 @@ nav {
 }
 
 #logo {
-  height: 5vh;
+  height: 4rem;
   padding: 0.5rem;
+}
+
+.hamburger {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.close-icon {
+  color: white;
+  display: none;
+}
+
+.hamburger-menu {
+  position: fixed;
+  transform: translateY(-100%);
+  transition: transform 0.3s;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  background: #4D4D4D;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  padding-top: 4rem;
+  text-align: center;
+}
+.hamburger-menu ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+.hamburger-menu li {
+  padding: 1rem;
+  margin-bottom: 0;
+}
+.hamburger-menu a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+.hamburger-menu a:hover {
+  color: #BB2929;
+}
+
+.showMenu {
+  transform: translateY(0);
 }
 
 #shiftnav-toggle-main {
@@ -165,7 +215,7 @@ nav {
 
 @media screen and (min-width: 600px) {
   nav {
-    height: 7vh;
+    height: 10rem;
   }
 
   #logo {
@@ -175,7 +225,8 @@ nav {
 }
 @media screen and (min-width: 1024px) {
   nav {
-    height: 10vh;
+    max-width: 1000px !important;
+    height: 10rem;
   }
 
   .nav-links {
@@ -367,6 +418,13 @@ footer a:hover {
   text-decoration: none;
 }
 
+.subscribe-footer {
+  margin: 3rem 0;
+}
+.subscribe-footer button {
+  box-shadow: none;
+}
+
 .sns {
   display: flex;
   flex-direction: row;
@@ -408,7 +466,7 @@ footer a:hover {
   .footer-list {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-start;
   }
   .footer-list ul {
@@ -426,6 +484,12 @@ footer a:hover {
 
   a {
     text-decoration: none;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .footer-list {
+    max-width: 1000px;
+    margin: 0 auto;
   }
 }
 .fwp-contact-form {
@@ -665,7 +729,7 @@ footer a:hover {
 }
 @media screen and (min-width: 1024px) {
   .page-content {
-    width: 80vw;
+    max-width: 1000px;
     margin: 0 auto;
   }
 }
@@ -812,7 +876,6 @@ footer a:hover {
   justify-content: space-between;
   text-align: justify;
   border: none;
-  box-shadow: #4D4D4D 5px 5px 0px;
   border-radius: 3rem;
   padding: 3rem;
   background-color: #EDEDED;
