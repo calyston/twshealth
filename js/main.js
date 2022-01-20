@@ -15,10 +15,12 @@ function getPlan() {
 
 const menu = document.querySelector(".hamburger-menu");
 const hamburger = document.querySelector(".hamburger");
-const closeIcon = document.querySelector(".close-icon");
-const menuIcon = document.querySelector(".menu-icon");
 
 function toggleMenu() {
+
+  const closeIcon = document.querySelector(".close-icon");
+  const menuIcon = document.querySelector(".menu-icon");
+
   if (menu.classList.contains("showMenu")) {
     menu.classList.remove("showMenu");
     closeIcon.style.display = "none";
@@ -35,7 +37,8 @@ hamburger.addEventListener("click", toggleMenu);
 //To Contact
 function toContact() {
   document.querySelector("#contact").scrollIntoView({
-    behavior: "smooth"
+    behavior: "smooth",
+    block: "start",
   });
 }
 

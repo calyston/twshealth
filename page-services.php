@@ -5,30 +5,17 @@
 get_header();?>
 
 <!-- Services Page -->
-
-<!-- Hero Banner -->
-<div class="hero-services">
-  <div class="page-title-container">
-    <h1><?php the_title(); ?></h1>
-  </div>
-</div>
-
-<!-- Services Page Content -->
 <section class="page-content">
 <?php if ( have_posts() ) : ?>
 	<?php while ( have_posts() ) : the_post(); ?>
-
+  
   <section class="services-content">
+    <h1><?php the_title(); ?></h1>
     <?php the_content(); ?>
   </section>
 
   <!-- Pricing Section -->
-  <section class="pricing-content">
-    <div>
-      <h1>Pricing</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    </div>
+  <!-- <section class="pricing-content">
     <section class="product-boxes">
       <div class="product-box">
         <h3>Product Name</h3>
@@ -69,7 +56,7 @@ get_header();?>
         <button class="main-button">Book A Call</button>
       </div>
 
-    </section>
+    </section> -->
 
   </section>
 

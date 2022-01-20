@@ -92,7 +92,7 @@ h4 {
   font-size: 1.6rem;
 }
 
-p, li, span, input, label, button, textarea {
+p, li, span, input, label, button, textarea, figcaption {
   font-family: "Quicksand", sans-serif;
   font-weight: normal;
   font-size: 1.6rem;
@@ -133,6 +133,7 @@ nav {
   padding: 1rem;
   margin-bottom: 0;
   text-transform: uppercase;
+  cursor: pointer;
 }
 .nav-links a {
   color: #4D4D4D;
@@ -145,13 +146,14 @@ nav {
 
 #logo {
   height: 4rem;
-  padding: 0.5rem;
+  margin: 0;
 }
 
 .hamburger {
   border: none;
   background: transparent;
   cursor: pointer;
+  z-index: 100;
 }
 
 .close-icon {
@@ -161,7 +163,7 @@ nav {
 
 .hamburger-menu {
   position: fixed;
-  transform: translateY(-100%);
+  transform: translateX(100%);
   transition: transform 0.3s;
   top: 0;
   left: 0;
@@ -180,6 +182,7 @@ nav {
   align-items: center;
   text-align: center;
   text-transform: uppercase;
+  padding-top: 5rem;
 }
 .hamburger-menu li {
   padding: 1rem;
@@ -195,7 +198,7 @@ nav {
 }
 
 .showMenu {
-  transform: translateY(0);
+  transform: translateX(0);
 }
 
 #shiftnav-toggle-main {
@@ -222,8 +225,7 @@ nav {
   }
 
   #logo {
-    height: 6vh;
-    padding: 0.5rem;
+    height: 6rem;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -260,11 +262,6 @@ nav {
     flex-direction: row;
   }
 
-  #logo {
-    height: 8vh;
-    padding: 0.5rem;
-  }
-
   .hamburger {
     display: none;
   }
@@ -283,15 +280,7 @@ nav {
   background-position: top;
   width: 100%;
   height: 50vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://tws.health/wp-content/uploads/2021/11/landing-page-2-scaled.jpeg");
-}
-
-.hero-about {
-  background-size: cover;
-  background-position: top;
-  width: 100%;
-  height: 50vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://tws.health/wp-content/uploads/2021/11/landing-page-3-scaled.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://tws.health/wp-content/uploads/2022/01/hero-2-scaled.jpeg");
 }
 
 .hero-services {
@@ -299,7 +288,7 @@ nav {
   background-position: top;
   width: 100%;
   height: 50vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://tws.health/wp-content/uploads/2021/11/landing-page-2-scaled.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://tws.health/wp-content/uploads/2022/01/hero-2-scaled.jpeg");
 }
 
 .hero-top-tips {
@@ -307,15 +296,7 @@ nav {
   background-position: top;
   width: 100%;
   height: 50vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://tws.health/wp-content/uploads/2021/11/landing-page-2-scaled.jpeg");
-}
-
-.hero-testimonials {
-  background-size: cover;
-  background-position: top;
-  width: 100%;
-  height: 50vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://tws.health/wp-content/uploads/2021/11/landing-page-2-scaled.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://tws.health/wp-content/uploads/2022/01/hero-2-scaled.jpeg");
 }
 
 .page-title-container-home {
@@ -333,6 +314,7 @@ nav {
 }
 .page-title-container-home h3 {
   font-size: 1.6rem;
+  font-family: "Quicksand", sans-serif;
 }
 
 .page-title-container {
@@ -346,8 +328,13 @@ nav {
   color: white;
 }
 
+@media screen and (min-width: 768px) {
+  .page-title-container-home h1 {
+    font-size: 5.6rem;
+  }
+}
 @media screen and (min-width: 1024px) {
-  .hero-home, .hero-about, .hero-services, .hero-top-tips, .hero-testimonials {
+  .hero-home, .hero-about, .hero-services, .hero-top-tips {
     height: 90vh;
   }
 
@@ -727,6 +714,9 @@ footer a:hover {
 .homepage img {
   height: auto;
 }
+.homepage figcaption {
+  text-align: center;
+}
 
 .home-about {
   display: flex;
@@ -757,26 +747,41 @@ footer a:hover {
     margin: 0 auto;
   }
 }
-.about-page-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.about-page-content img {
+.about-page {
   margin: 3rem 0;
+  text-align: center;
+}
+.about-page h1, .about-page h2 {
+  text-align: center;
+  margin: 3rem 0;
+}
+.about-page img {
   height: auto;
-  box-shadow: #4D4D4D 5px 5px 0px;
+}
+.about-page figcaption {
+  text-align: center;
 }
 
 .services-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.services-content img {
-  height: auto;
-  box-shadow: #4D4D4D 5px 5px 0px;
   margin: 3rem 0;
+  text-align: justify;
+}
+.services-content h1 {
+  text-align: center;
+}
+.services-content h2 {
+  font-size: 5rem;
+}
+.services-content h3 {
+  padding: 3rem 0;
+}
+.services-content a {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.6rem;
+}
+.services-content ul {
+  padding: 0 3rem;
+  text-align: center;
 }
 
 .pricing-content {

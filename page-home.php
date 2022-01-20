@@ -10,7 +10,7 @@ get_header(); ?>
 <!-- Hero Banner -->
 <div id="hero-home" class="hero-home">
   <div class="page-title-container-home">
-    <h1><?php the_title(); ?></h1>
+		<h1>Bring Balance<br>To Your Being</h1>
 		<h3>I'll help you to make subtle changes to your dietary and lifestyle habits and see the profound effects on your body!</h3>
   </div>
 </div>
