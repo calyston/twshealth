@@ -201,6 +201,11 @@ nav {
   transform: translateX(0);
 }
 
+.hideOverflow {
+  height: 100vh;
+  overflow-y: hidden;
+}
+
 #shiftnav-toggle-main {
   background-color: transparent !important;
 }
@@ -328,11 +333,6 @@ nav {
   color: white;
 }
 
-@media screen and (min-width: 768px) {
-  .page-title-container-home h1 {
-    font-size: 5.6rem;
-  }
-}
 @media screen and (min-width: 1024px) {
   .hero-home, .hero-about, .hero-services, .hero-top-tips {
     height: 90vh;
@@ -350,6 +350,9 @@ nav {
   .page-title-container-home h1, .page-title-container-home h3 {
     width: 50%;
     text-align: justify;
+  }
+  .page-title-container-home h1 {
+    font-size: 5.6rem;
   }
   .page-title-container-home h3 {
     font-size: 2.4rem;

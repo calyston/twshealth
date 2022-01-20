@@ -104,6 +104,11 @@ nav {
   transform: translateX(0);
 }
 
+.hideOverflow {
+  height: 100vh;
+  overflow-y: hidden;
+}
+
 
 
 //Shift Nav

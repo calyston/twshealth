@@ -51,12 +51,6 @@
 
 //Tablet & Desktop View
 
-@media screen and (min-width: 768px) {
-  .page-title-container-home h1 {
-    font-size: 5.6rem;
-  }
-}
-
 @media screen and (min-width: 1024px) {
   .hero-home, .hero-about, .hero-services, .hero-top-tips {
     height: 90vh;
@@ -74,6 +68,10 @@
     h1, h3 {
       width: 50%;
       text-align: justify;
+    }
+
+    h1 {
+      font-size: 5.6rem;
     }
 
     h3 {

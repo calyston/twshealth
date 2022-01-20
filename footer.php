@@ -19,7 +19,7 @@
       </div>
     </section>
     <section class="subscribe-footer">
-      <p>Sign up here for updates on all things health, wellness and nutrition.</p>
+      <p>Subscribe for updates on all things health, wellness and nutrition.</p>
       <a href="https://view.flodesk.com/pages/61a68146aadf79eb40035343" target="blank"><button class="main-button">Subscribe</button></a>
     </section>
     <section class="sns">

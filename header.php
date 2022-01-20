@@ -42,6 +42,7 @@
 				</div>
 				<a href="https://twshealth.youcanbook.me/" target="blank"><button class="main-button cta-button"">Book A Call</button></a>
 			</div>
+			<!-- Hamburger Menu -->
 			<div class="hamburger-menu">
 				<?php wp_nav_menu( array( 'theme_location' => 'hamburger' ) ); ?>
 			</div>

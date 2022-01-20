@@ -20,13 +20,16 @@ function toggleMenu() {
 
   const closeIcon = document.querySelector(".close-icon");
   const menuIcon = document.querySelector(".menu-icon");
+  const body = document.querySelector("body");
 
   if (menu.classList.contains("showMenu")) {
     menu.classList.remove("showMenu");
+    body.classList.remove("hideOverflow");
     closeIcon.style.display = "none";
     menuIcon.style.display = "block";
   } else {
     menu.classList.add("showMenu");
+    body.classList.add("hideOverflow");
     closeIcon.style.display = "block";
     menuIcon.style.display = "none";
   }
