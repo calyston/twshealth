@@ -109,29 +109,6 @@ nav {
   overflow-y: hidden;
 }
 
-
-
-//Shift Nav
-
-#shiftnav-toggle-main {
-  background-color: transparent!important;
-}
-
-.shiftnav-inner {
-  background-color: $dark-grey!important;
-  color: white;
-  text-transform: uppercase;
-  text-align: left;
-
-  a {
-    color: white;
-  }
-}
-
-.shiftnav-panel-close {
-  background-color: $dark-grey!important;
-}
-
 //Tablet & Desktop View
 
 @media screen and (min-width: 600px) {
@@ -146,7 +123,6 @@ nav {
 
 @media screen and (min-width: 1024px) {
   nav {
-    max-width: 1000px!important;
     height: 10rem;
   }
 
@@ -154,6 +130,7 @@ nav {
     display: flex;
     flex-direction: row;
     align-items: center;
+    width: 100%;
   
     ul {
       display: flex;
@@ -180,6 +157,9 @@ nav {
   .combined-nav-links {
     display: flex;
     flex-direction: row;
+    width: 100%;
+    justify-content: flex-end;
+    margin-right: 8rem;
   }
 
   .hamburger {

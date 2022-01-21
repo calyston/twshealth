@@ -206,24 +206,6 @@ nav {
   overflow-y: hidden;
 }
 
-#shiftnav-toggle-main {
-  background-color: transparent !important;
-}
-
-.shiftnav-inner {
-  background-color: #4D4D4D !important;
-  color: white;
-  text-transform: uppercase;
-  text-align: left;
-}
-.shiftnav-inner a {
-  color: white;
-}
-
-.shiftnav-panel-close {
-  background-color: #4D4D4D !important;
-}
-
 @media screen and (min-width: 600px) {
   nav {
     height: 10rem;
@@ -235,7 +217,6 @@ nav {
 }
 @media screen and (min-width: 1024px) {
   nav {
-    max-width: 1000px !important;
     height: 10rem;
   }
 
@@ -243,6 +224,7 @@ nav {
     display: flex;
     flex-direction: row;
     align-items: center;
+    width: 100%;
   }
   .nav-links ul {
     display: flex;
@@ -265,6 +247,9 @@ nav {
   .combined-nav-links {
     display: flex;
     flex-direction: row;
+    width: 100%;
+    justify-content: flex-end;
+    margin-right: 8rem;
   }
 
   .hamburger {
