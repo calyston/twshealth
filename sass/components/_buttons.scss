@@ -33,3 +33,21 @@
   color: white;
   background-color: $red;
 }
+
+.get-started {
+  color: black;
+  background-color: $orange;
+  text-transform: uppercase;
+  padding: 1.6rem;
+  border: none;
+  border-radius: 5rem;
+  box-shadow: $main-shadow;
+  transition: $main-transition;
+  cursor: pointer;
+  margin-top: 3rem;
+}
+
+.get-started:hover {
+  color: white;
+  background-color: $red;
+}

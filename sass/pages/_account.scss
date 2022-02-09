@@ -1,0 +1,32 @@
+//Account Page
+
+.account-page {
+  margin: 3rem 0;
+  text-align: center;
+
+  h1, h2 {
+    text-align: center;
+    margin: 3rem 0;
+  }
+
+  a {
+    color: $dark-grey;
+  }
+
+  a:hover {
+    color: $red;
+  }
+
+  input {
+    border: 1px solid $dark-grey;
+    border-radius: 2rem;
+  }
+
+  input, label, .mepr-no-active-subscriptions, .mp-no-subs {
+    font-family: $body-font;
+    font-weight: normal;
+    font-size: 1.6rem;
+    cursor: default;
+    color: $dark-grey;
+  }
+}

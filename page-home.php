@@ -12,6 +12,7 @@ get_header(); ?>
   <div class="page-title-container-home">
 		<h1>Bring Balance<br>To Your Being</h1>
 		<h3>I'll help you to make subtle changes to your dietary and lifestyle habits and see the profound effects on your body!</h3>
+		<a href="https://twshealth.youcanbook.me/" target="blank"><button class="get-started">Get Started</button></a>
   </div>
 </div>
 

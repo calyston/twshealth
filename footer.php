@@ -1,13 +1,13 @@
 <?php ?>
 
 </main>
-<section class="cta-footer">
+<!-- <section class="cta-footer">
   <div>
     <img src="https://tws.health/wp-content/uploads/2022/01/bookacall-scaled.jpeg">
     <a href="https://twshealth.youcanbook.me/" target="blank"><button class="main-button cta-button"">Book A Call</button></a>
     <p>Let's have a discussion to see what your goals are and how I can help get you there. Completely free, no obligation.</p>
   </div>
-</section>
+</section> -->
 
 <footer id="contact">
   <section class="footer-content">
@@ -15,7 +15,7 @@
     <section class="footer-list">
       <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
       <div class="footer-contact">
-        <p>Email: tim@tws.health</p>
+        <p><a href="mailto:tim@tws.health">Email: tim@tws.health</a></p>
       </div>
     </section>
     <section class="subscribe-footer">
