@@ -1,42 +1,71 @@
 //Membership Pages
 
 .membership-page {
-  margin: 3rem 0;
-  text-align: center;
+  margin: 3rem 0!important;
+  text-align: center!important;
 
-  h1, h2 {
-    text-align: center;
-    margin: 3rem 0;
+  h1 {
+    text-align: center!important;
+    margin: 3rem 0!important;
   }
 
-  input {
-    border: 1px solid $dark-grey;
-    border-radius: 2rem;
+  tr, td {
+    font-family: $body-font!important;
+    font-size: 1.6rem!important;
+    cursor: default!important;
+    color: $dark-grey!important;
   }
 
-  input, label {
-    font-family: $body-font;
-    font-weight: normal;
-    font-size: 1.6rem;
-    cursor: default;
-    color: $dark-grey;
+  th {
+    font-weight: normal!important;
   }
+}
+
+.have-coupon-link {
+  font-family: $body-font!important;
+  font-weight: normal!important;
+  font-size: 1.6rem!important;
+  color: $dark-grey!important;
+}
+
+.have-coupon-link:hover {
+  color: $red!important;
+}
+
+.mp-form-label label, .mepr-form-input {
+  font-family: $body-font!important;
+  font-weight: normal!important;
+  font-size: 1.6rem!important;
+  cursor: default!important;
+  color: $dark-grey!important;
+}
+
+.mepr-form-input {
+  border: 1px solid $dark-grey!important;
+  border-radius: 2rem!important;
+}
+
+.mepr_price {
+  font-family: $heading-font!important;
+  cursor: default!important;
+  color: $dark-grey!important;
+  font-size: 3.2rem!important;
 }
 
 // Move to Buttons Page when done 
 .mepr-submit {
-  color: black;
-  background-color: $orange;
-  text-transform: uppercase;
-  padding: 1.6rem;
-  border: none;
-  border-radius: 5rem;
-  box-shadow: $main-shadow;
-  transition: $main-transition;
-  cursor: pointer;
+  color: black!important;
+  background-color: $orange!important;
+  text-transform: uppercase!important;
+  padding: 1.6rem!important;
+  border: none!important;
+  border-radius: 5rem!important;
+  box-shadow: $main-shadow!important;
+  transition: $main-transition!important;
+  cursor: pointer!important;
 }
 
 .mepr-submit:hover {
-  color: white;
-  background-color: $red;
+  color: white!important;
+  background-color: $red!important;
 }

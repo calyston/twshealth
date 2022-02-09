@@ -863,40 +863,93 @@ footer a:hover {
   }
 }
 .membership-page {
-  margin: 3rem 0;
-  text-align: center;
+  margin: 3rem 0 !important;
+  text-align: center !important;
 }
-.membership-page h1, .membership-page h2 {
-  text-align: center;
-  margin: 3rem 0;
+.membership-page h1 {
+  text-align: center !important;
+  margin: 3rem 0 !important;
 }
-.membership-page input {
-  border: 1px solid #4D4D4D;
-  border-radius: 2rem;
+.membership-page tr, .membership-page td {
+  font-family: "Quicksand", sans-serif !important;
+  font-size: 1.6rem !important;
+  cursor: default !important;
+  color: #4D4D4D !important;
 }
-.membership-page input, .membership-page label {
-  font-family: "Quicksand", sans-serif;
-  font-weight: normal;
-  font-size: 1.6rem;
-  cursor: default;
-  color: #4D4D4D;
+.membership-page th {
+  font-weight: normal !important;
+}
+
+.have-coupon-link {
+  font-family: "Quicksand", sans-serif !important;
+  font-weight: normal !important;
+  font-size: 1.6rem !important;
+  color: #4D4D4D !important;
+}
+
+.have-coupon-link:hover {
+  color: #BB2929 !important;
+}
+
+.mp-form-label label, .mepr-form-input {
+  font-family: "Quicksand", sans-serif !important;
+  font-weight: normal !important;
+  font-size: 1.6rem !important;
+  cursor: default !important;
+  color: #4D4D4D !important;
+}
+
+.mepr-form-input {
+  border: 1px solid #4D4D4D !important;
+  border-radius: 2rem !important;
+}
+
+.mepr_price {
+  font-family: "Stint Ultra Expanded", cursive !important;
+  cursor: default !important;
+  color: #4D4D4D !important;
+  font-size: 3.2rem !important;
 }
 
 .mepr-submit {
-  color: black;
-  background-color: #F7931E;
-  text-transform: uppercase;
-  padding: 1.6rem;
-  border: none;
-  border-radius: 5rem;
-  box-shadow: #4D4D4D 5px 5px 0px;
-  transition: 0.3s ease-in-out;
-  cursor: pointer;
+  color: black !important;
+  background-color: #F7931E !important;
+  text-transform: uppercase !important;
+  padding: 1.6rem !important;
+  border: none !important;
+  border-radius: 5rem !important;
+  box-shadow: #4D4D4D 5px 5px 0px !important;
+  transition: 0.3s ease-in-out !important;
+  cursor: pointer !important;
 }
 
 .mepr-submit:hover {
-  color: white;
-  background-color: #BB2929;
+  color: white !important;
+  background-color: #BB2929 !important;
+}
+
+.account-page {
+  margin: 3rem 0;
+  text-align: center;
+}
+.account-page h1, .account-page h2 {
+  text-align: center;
+  margin: 3rem 0;
+}
+
+#mepr-account-nav a, .mepr-account-change-password a {
+  color: #4D4D4D;
+}
+#mepr-account-nav a:hover, .mepr-account-change-password a:hover {
+  color: #BB2929;
+}
+
+.mepr-no-active-subscriptions, .mp-no-subs {
+  font-family: "Quicksand", sans-serif !important;
+  font-weight: normal !important;
+  font-size: 1.6rem !important;
+  cursor: default !important;
+  color: #4D4D4D !important;
 }
 
 .testimonials-page-content {
