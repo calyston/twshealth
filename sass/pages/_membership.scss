@@ -9,16 +9,14 @@
     margin: 3rem 0!important;
   }
 
-  tr, td {
+  th, td {
     font-family: $body-font!important;
     font-size: 1.6rem!important;
     cursor: default!important;
     color: $dark-grey!important;
-  }
-
-  th {
     font-weight: normal!important;
   }
+
 }
 
 .have-coupon-link {
@@ -45,7 +43,7 @@
   border-radius: 2rem!important;
 }
 
-.mepr_price {
+.mepr_price div {
   font-family: $heading-font!important;
   cursor: default!important;
   color: $dark-grey!important;

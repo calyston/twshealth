@@ -207,7 +207,6 @@ nav {
 
 .hideOverflow {
   height: 100vh;
-  overflow-y: hidden;
 }
 
 @media screen and (min-width: 600px) {
@@ -801,6 +800,11 @@ footer a:hover {
   text-align: center;
 }
 
+.wp-block-column {
+  padding: 1rem !important;
+  border-radius: 3rem !important;
+}
+
 .pricing-content {
   text-align: center;
 }
@@ -870,13 +874,11 @@ footer a:hover {
   text-align: center !important;
   margin: 3rem 0 !important;
 }
-.membership-page tr, .membership-page td {
+.membership-page th, .membership-page td {
   font-family: "Quicksand", sans-serif !important;
   font-size: 1.6rem !important;
   cursor: default !important;
   color: #4D4D4D !important;
-}
-.membership-page th {
   font-weight: normal !important;
 }
 
@@ -904,7 +906,7 @@ footer a:hover {
   border-radius: 2rem !important;
 }
 
-.mepr_price {
+.mepr_price div {
   font-family: "Stint Ultra Expanded", cursive !important;
   cursor: default !important;
   color: #4D4D4D !important;
