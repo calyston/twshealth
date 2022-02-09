@@ -882,6 +882,17 @@ footer a:hover {
   font-weight: normal !important;
 }
 
+.mepr_price div {
+  font-family: "Stint Ultra Expanded", cursive !important;
+  cursor: default !important;
+  color: #4D4D4D !important;
+  font-size: 3.2rem !important;
+}
+
+.mepr_price_cell {
+  padding-left: 1rem !important;
+}
+
 .have-coupon-link {
   font-family: "Quicksand", sans-serif !important;
   font-weight: normal !important;
@@ -901,16 +912,13 @@ footer a:hover {
   color: #4D4D4D !important;
 }
 
+.mp-form-label {
+  margin-bottom: 1rem !important;
+}
+
 .mepr-form-input {
   border: 1px solid #4D4D4D !important;
   border-radius: 2rem !important;
-}
-
-.mepr_price div {
-  font-family: "Stint Ultra Expanded", cursive !important;
-  cursor: default !important;
-  color: #4D4D4D !important;
-  font-size: 3.2rem !important;
 }
 
 .mepr-submit {

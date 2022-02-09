@@ -16,7 +16,17 @@
     color: $dark-grey!important;
     font-weight: normal!important;
   }
+}
 
+.mepr_price div {
+  font-family: $heading-font!important;
+  cursor: default!important;
+  color: $dark-grey!important;
+  font-size: 3.2rem!important;
+}
+
+.mepr_price_cell {
+  padding-left: 1rem!important;
 }
 
 .have-coupon-link {
@@ -38,17 +48,16 @@
   color: $dark-grey!important;
 }
 
+.mp-form-label {
+  margin-bottom: 1rem!important;
+}
+
 .mepr-form-input {
   border: 1px solid $dark-grey!important;
   border-radius: 2rem!important;
 }
 
-.mepr_price div {
-  font-family: $heading-font!important;
-  cursor: default!important;
-  color: $dark-grey!important;
-  font-size: 3.2rem!important;
-}
+
 
 // Move to Buttons Page when done 
 .mepr-submit {

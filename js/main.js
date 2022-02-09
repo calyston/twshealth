@@ -37,6 +37,7 @@ function toggleMenu() {
 
 hamburger.addEventListener("click", toggleMenu);
 
+
 //To Contact
 function toContact() {
   document.querySelector("#contact").scrollIntoView({
