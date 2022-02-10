@@ -1,12 +1,12 @@
 //Top Tips
 
-.top-tips-page-content {
+.knowledge-hub-page {
   display: flex;
   flex-direction: column;
   text-align: center;
 }
 
-.top-tip-post {
+.knowledge-hub-post {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -27,14 +27,14 @@
 //Tablet & Desktop View
 
 @media screen and (min-width: 1024px) {
-  .top-tips-page-content {
+  .knowledge-hub-page {
     p {
       max-width: 60vw;
       margin: 1.6rem auto;
     }
   }
 
-  .top-tip-post {
+  .knowledge-hub-post {
     max-width: 60vw;
     margin: 3rem auto;
   }

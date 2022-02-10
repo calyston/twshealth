@@ -51,3 +51,20 @@
   color: white;
   background-color: $red;
 }
+
+.mepr-submit {
+  color: black!important;
+  background-color: $orange!important;
+  text-transform: uppercase!important;
+  padding: 1.6rem!important;
+  border: none!important;
+  border-radius: 5rem!important;
+  box-shadow: $main-shadow!important;
+  transition: $main-transition!important;
+  cursor: pointer!important;
+}
+
+.mepr-submit:hover {
+  color: white!important;
+  background-color: $red!important;
+}

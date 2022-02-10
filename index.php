@@ -1,19 +1,25 @@
 <?php
 /**
- * The template for displaying the home/index page.
- * This template will also be called in any case where the Wordpress engine 
- * doesn't know which template to use (e.g. 404 error)
+ * Template Name: Knowledge Hub Blog
  */
 
 get_header(); ?>
 
-	<?php if ( have_posts() ) : ?>
-	<?php while ( have_posts() ) : the_post(); ?>
-
-	<!-- Redirect To Coming Soon Page -->
-	<!-- <script type="text/javascript">
-    window.location = "https://tws.health/coming-soon";
-	</script> -->
+<!-- Knowledge Hub Page -->
+<section class="page-content">
+  <section class="knowledge-hub-page">
+	<h1>Knowledge Hub</h1>
+	
+    <!-- Knowledge Hub Posts -->
+    <?php if ( have_posts() ) : ?>
+      <?php while ( have_posts() ) : the_post(); ?>
+        <article class="knowledge-hub-post">
+          <img src=<?php the_post_thumbnail(); ?>
+          <h3><?php the_title(); ?></h3>
+          <p><?php the_excerpt(); ?></p>
+          <a href="<?php the_permalink();?>"><button class="main-button">Read More</button></a>
+        </article>
+    </section>
 
 	<?php endwhile;  ?>
 

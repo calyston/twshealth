@@ -69,14 +69,3 @@ function twshealth_scripts()  {
   
 }
 add_action( 'wp_enqueue_scripts', 'twshealth_scripts' ); // Register this fxn and allow Wordpress to call it automatcally in the header
-
-/**
-* Remove Contact Form 7 js and css unless on the contact page
-**/
-add_action( 'wp_enqueue_scripts', 'sr_remove_cf7_scripts' );
-function sr_remove_cf7_scripts() {
-    if ( !is_page('contact') ) {
-        wp_deregister_style( 'contact-form-7' );
-        wp_deregister_script( 'contact-form-7' );
-    }
-}

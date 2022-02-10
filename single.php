@@ -11,7 +11,7 @@ get_header(); ?>
 <section class="page-content">
 	<?php if ( have_posts() ) : ?>
 		<?php while ( have_posts() ) : the_post(); ?>
-			<article class="post">
+			<article class="knowledge-hub-post">
 				<h1><?php the_title(); ?></h1>
 				<p class="post-date"><?php the_time('l jS F Y'); ?></p>
 				<div class="post-content">
