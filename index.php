@@ -9,12 +9,12 @@ get_header(); ?>
 <section class="page-content">
   <section class="knowledge-hub-page">
 	<h1>Knowledge Hub</h1>
-	
+
     <!-- Knowledge Hub Posts -->
     <?php if ( have_posts() ) : ?>
       <?php while ( have_posts() ) : the_post(); ?>
         <article class="knowledge-hub-post">
-          <img src=<?php the_post_thumbnail(); ?>
+          <?php the_post_thumbnail(); ?>
           <h3><?php the_title(); ?></h3>
           <p><?php the_excerpt(); ?></p>
           <a href="<?php the_permalink();?>"><button class="main-button">Read More</button></a>

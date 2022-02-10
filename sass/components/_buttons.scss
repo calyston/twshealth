@@ -64,7 +64,13 @@
   cursor: pointer!important;
 }
 
-.mepr-submit:hover {
+.mepr-submit:hover, .wp-block-button:hover {
   color: white!important;
   background-color: $red!important;
+}
+
+.wp-block-button {
+  font-size: 1.6rem!important;
+  font-family: $body-font!important;
+  padding: 1.6rem!important;
 }

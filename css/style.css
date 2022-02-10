@@ -595,9 +595,15 @@ footer a:hover {
   cursor: pointer !important;
 }
 
-.mepr-submit:hover {
+.mepr-submit:hover, .wp-block-button:hover {
   color: white !important;
   background-color: #BB2929 !important;
+}
+
+.wp-block-button {
+  font-size: 1.6rem !important;
+  font-family: "Quicksand", sans-serif !important;
+  padding: 1.6rem !important;
 }
 
 .popup-subscribe {
