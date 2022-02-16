@@ -60,5 +60,13 @@ get_header(); ?>
 		<?php endif; ?>
 	</section>
 </section>
+<section class="cta-footer">
+  <div>
+    <img src="https://tws.health/wp-content/uploads/2022/01/bookacall-scaled.jpeg">
+    <a href="https://twshealth.youcanbook.me/" target="blank"><button class="main-button cta-button"">Book A Call</button></a>
+    <p>Let's have a discussion to see what your goals are and how I can help get you there. Completely free, no obligation.</p>
+  </div>
+</section>
+
 
 <?php get_footer();  ?>
