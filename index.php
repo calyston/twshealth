@@ -7,11 +7,10 @@ get_header(); ?>
 
 <!-- Knowledge Hub Page -->
 <section class="page-content">
-  <section class="knowledge-hub-page">
-	<h1>Knowledge Hub</h1>
-
+  <section class="knowledge-hub-page">	
     <!-- Knowledge Hub Posts -->
     <?php if ( have_posts() ) : ?>
+      <h1>Knowledge Hub</h1>
       <?php while ( have_posts() ) : the_post(); ?>
         <article class="knowledge-hub-post">
           <?php the_post_thumbnail(); ?>
@@ -24,9 +23,10 @@ get_header(); ?>
 	<?php endwhile;  ?>
 
 	<?php else : ?>
-		<article class="post error">
-			<h1 class="404">Nothing has been posted like that yet</h1>
-		</article>
+		<section class="about-page">
+			<h1>Oops! Looks like this page doesn't exist...</h1>
+      <p><a href="https://tws.health">Back To Home</a></p>
+    </section>
 	<?php endif; ?>
 
 <?php get_footer(); ?>

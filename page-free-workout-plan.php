@@ -63,9 +63,10 @@ get_header();?>
 	<?php endwhile; ?>
 
 	<?php else : ?>
-		<article class="post error">
-			<h1 class="404">Nothing has been posted like that yet</h1>
-		</article>
+		<section class="about-page">
+				<h1>Oops! Looks like this page doesn't exist...</h1>
+				<p><a href="https://tws.health">Back To Home</a></p>
+    </section>
 <?php endif; ?>
 
 <?php get_footer(); ?>

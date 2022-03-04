@@ -6,12 +6,6 @@ TWS Health & Wellness is a responsive WordPress website for nutrition and fitnes
 
 https://tws.health/ 
 
-### Mobile:
-
-
-### Desktop:
-
-
 ## Technologies Used
 
 ![PHP](https://img.shields.io/badge/-PHP-blueviolet) ![Wordpress](https://img.shields.io/badge/-WordPress-informational) ![SASS](https://img.shields.io/badge/-SASS-ff69b4) ![JavaScript](https://img.shields.io/badge/-JavaScript-orange) ![HTML5](https://img.shields.io/badge/-HTML5-orange) ![Adobe XD](https://img.shields.io/badge/-Adobe%20XD-blueviolet)

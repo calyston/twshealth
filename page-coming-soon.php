@@ -12,7 +12,7 @@ get_header(); ?>
       <img src="https://tws.health/wp-content/uploads/2021/11/logo.png" alt="logo">
       <h1><?php the_title(); ?></h1>
       <?php the_content(); ?>
-  </section>
+    </section>
 	<?php endwhile; ?>
 
 	<?php else : ?>
