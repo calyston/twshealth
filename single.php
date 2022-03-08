@@ -15,11 +15,13 @@ get_header(); ?>
 				<h1><?php the_title(); ?></h1>
 				<p class="post-date"><?php the_time('l jS F Y'); ?></p>
 				<div class="post-content">
-					<img src=<?php the_post_thumbnail(); ?>
+					<?php the_post_thumbnail(); ?>
 					<?php the_content(); ?>
 					<?php wp_link_pages(); ?>
 				</div>
+				<a href="https://tws.health/knowledge-hub/"><button class="main-button">Back To Knowledge Hub</button></a>
 			</article>
+			
 		<?php endwhile; ?>
 
 		<?php else : ?>

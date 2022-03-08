@@ -30,7 +30,7 @@ function toggleMenu() {
   } else {
     menu.classList.add("showMenu");
     body.classList.add("hideOverflow");
-    closeIcon.style.display = "block";
+    closeIcon.setAttribute('style', 'display:block !important');
     menuIcon.style.display = "none";
   }
 }

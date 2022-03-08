@@ -162,7 +162,7 @@ nav {
 
 .close-icon {
   color: white;
-  display: none;
+  display: none !important;
 }
 
 .hamburger-menu {
@@ -1050,8 +1050,6 @@ footer a:hover {
   text-align: justify;
   border: none;
   border-radius: 3rem;
-  padding: 3rem;
-  background-color: #EDEDED;
   margin: 3rem;
 }
 .knowledge-hub-post img {
@@ -1082,6 +1080,7 @@ footer a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 3rem 0;
 }
 .post-content p {
   text-align: justify;
