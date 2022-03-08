@@ -207,6 +207,7 @@ nav {
 
 .hideOverflow {
   height: 100vh;
+  overflow-y: hidden;
 }
 
 @media screen and (min-width: 600px) {
@@ -227,6 +228,7 @@ nav {
     display: flex;
     flex-direction: row;
     align-items: center;
+    width: 80%;
   }
   .nav-links ul {
     display: flex;
@@ -582,7 +584,7 @@ footer a:hover {
   background-color: #BB2929;
 }
 
-.mepr-submit {
+.mepr-submit, .mepr-share-button {
   color: black !important;
   background-color: #F7931E !important;
   text-transform: uppercase !important;
@@ -800,6 +802,19 @@ footer a:hover {
   text-align: center;
 }
 
+.privacy-policy-page {
+  margin: 3rem 0;
+  text-align: justify;
+}
+.privacy-policy-page h1 {
+  text-align: center;
+  margin: 3rem 0;
+}
+.privacy-policy-page h2, .privacy-policy-page h3 {
+  text-align: left;
+  margin: 3rem 0;
+}
+
 .services-content {
   margin: 3rem 0;
   text-align: justify;
@@ -968,6 +983,10 @@ footer a:hover {
   font-size: 1.6rem !important;
   cursor: default !important;
   color: #4D4D4D !important;
+}
+
+#rememberme {
+  width: auto !important;
 }
 
 .testimonials-page-content {

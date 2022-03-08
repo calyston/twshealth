@@ -28,7 +28,7 @@
 <body 
 	<?php body_class(); ?>>
 	<header>
-		<?php if (is_page(array('free-workout-plan', 'coming-soon', 'subscribed'))) { ?>
+		<?php if (is_page(array('coming-soon'))) { ?>
 			<nav>
 				<a href="https://tws.health"><img id="logo" src="https://tws.health/wp-content/uploads/2021/11/logo.png" alt="logo"></a>
 			</nav>
@@ -46,7 +46,7 @@
 			<div class="hamburger-menu">
 				<?php wp_nav_menu( array( 'theme_location' => 'hamburger' ) ); ?>
 			</div>
-			<button class="hamburger">
+			<button class="hamburger hideOverflow">
 					<i class="menu-icon fas fa-bars fa-2x"></i>
 					<i class="close-icon fas fa-times fa-2x"></i>
 			</button>

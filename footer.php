@@ -21,6 +21,7 @@
       <a href="https://www.tiktok.com/@tws.health/" target="blank"><i class="fab fa-tiktok fa-4x"></i></a>
     </section>
     <p><a href="https://tws.health/terms-conditions">Terms & Conditions</a> | <a href="https://tws.health/privacy-policy">Privacy Policy</a></p>
+    <p><a href="https://tws.health/cookies-policy/">Cookies Policy</a></p>
     <p>© TWS Health & Wellness 2022</p>
     <p>Designed and Developed by <a href="https://christinelyston.co.uk/" target="blank">Christine Lyston</a></p>
   </section>
