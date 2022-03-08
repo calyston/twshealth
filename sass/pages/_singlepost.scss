@@ -21,7 +21,7 @@
   }
 
   img {
-    width: 30vw;
+    width: 50vw;
     height: auto;
   }
 }
@@ -32,6 +32,11 @@
   .post-content {
     p {
       max-width: 60vw;
+    }
+
+    img {
+      width: 30vw;
+      height: auto;
     }
   }
 }

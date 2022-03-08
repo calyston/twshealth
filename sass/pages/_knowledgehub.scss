@@ -17,7 +17,7 @@
   margin: 3rem;
   
   img {
-    width: 30vw;
+    width: 50vw;
     height: auto;
   }
 }
@@ -35,5 +35,10 @@
   .knowledge-hub-post {
     max-width: 60vw;
     margin: 3rem auto;
+
+    img {
+      width: 30vw;
+      height: auto;
+    }
   }
 }
