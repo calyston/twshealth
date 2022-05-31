@@ -633,15 +633,16 @@ footer a:hover {
 }
 
 #popmake-403 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
   padding: 3rem;
 }
 
 #pum_popup_title_403 {
   font-family: "Stint Ultra Expanded", cursive;
+  text-align: center;
 }
 
 .fwp {
