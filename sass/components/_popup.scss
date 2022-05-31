@@ -1,45 +1,13 @@
-//Pop Ups
+//Pop Up
 
-.popup-subscribe {
-  display: none;
-  background-color: $light-grey;
-  padding: 1.5rem;
-  text-align: center;
-  border-radius: 3rem;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 90%;
-  opacity: 0.9;
-}
-
-#overlay {
-  position: fixed;
-  display: none;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0,0,0,0.7);
-}
-
-.x-btn {
+#popmake-403 {
   display: flex;
-  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
 }
 
-.close-btn {
-  color: $dark-grey;
-  cursor: pointer;
-}
-
-//Tablet & Desktop View
-
-@media screen and (min-width: 768px) {
-  .popup-subscribe {
-    width: 50%;
-  }
+#pum_popup_title_403 {
+  font-family: $heading-font;
 }

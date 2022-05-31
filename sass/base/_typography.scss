@@ -12,7 +12,10 @@ body {
   line-height: 1.5;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-family: $heading-font;
   cursor: default;
   color: $dark-grey;
@@ -34,7 +37,14 @@ h4 {
   font-size: 1.6rem;
 }
 
-p, li, span, input, label, button, textarea, figcaption {
+p,
+li,
+span,
+input,
+label,
+button,
+textarea,
+figcaption {
   font-family: $body-font;
   font-weight: normal;
   font-size: 1.6rem;
@@ -42,10 +52,27 @@ p, li, span, input, label, button, textarea, figcaption {
   color: $dark-grey;
 }
 
-h1, h2, p, img, li, span {
+h1,
+h2,
+p,
+img,
+li,
+span {
   margin-bottom: 1.6rem;
 }
 
 strong {
   font-weight: 700;
+}
+
+// GDPR Cookies Consent Plugin
+
+.cli-modal-body {
+  font-family: $body-font !important;
+}
+
+.wt-cli-privacy-accept-btn {
+  color: black !important;
+  background-color: $orange !important;
+  font-family: $body-font !important;
 }

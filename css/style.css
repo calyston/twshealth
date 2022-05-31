@@ -70,7 +70,10 @@ body {
   line-height: 1.5;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-family: "Stint Ultra Expanded", cursive;
   cursor: default;
   color: #4D4D4D;
@@ -92,7 +95,14 @@ h4 {
   font-size: 1.6rem;
 }
 
-p, li, span, input, label, button, textarea, figcaption {
+p,
+li,
+span,
+input,
+label,
+button,
+textarea,
+figcaption {
   font-family: "Quicksand", sans-serif;
   font-weight: normal;
   font-size: 1.6rem;
@@ -100,12 +110,27 @@ p, li, span, input, label, button, textarea, figcaption {
   color: #4D4D4D;
 }
 
-h1, h2, p, img, li, span {
+h1,
+h2,
+p,
+img,
+li,
+span {
   margin-bottom: 1.6rem;
 }
 
 strong {
   font-weight: 700;
+}
+
+.cli-modal-body {
+  font-family: "Quicksand", sans-serif !important;
+}
+
+.wt-cli-privacy-accept-btn {
+  color: black !important;
+  background-color: #F7931E !important;
+  font-family: "Quicksand", sans-serif !important;
 }
 
 nav {
@@ -607,47 +632,18 @@ footer a:hover {
   padding: 1.6rem !important;
 }
 
-.popup-subscribe {
-  display: none;
-  background-color: #EDEDED;
-  padding: 1.5rem;
-  text-align: center;
-  border-radius: 3rem;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 90%;
-  opacity: 0.9;
-}
-
-#overlay {
-  position: fixed;
-  display: none;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.7);
-}
-
-.x-btn {
+#popmake-403 {
   display: flex;
-  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
 }
 
-.close-btn {
-  color: #4D4D4D;
-  cursor: pointer;
+#pum_popup_title_403 {
+  font-family: "Stint Ultra Expanded", cursive;
 }
 
-@media screen and (min-width: 768px) {
-  .popup-subscribe {
-    width: 50%;
-  }
-}
 .fwp {
   display: flex;
   flex-direction: column;
